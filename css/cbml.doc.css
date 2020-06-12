@@ -1,0 +1,50 @@
+html {
+background-image: url(../images/background.jpg);
+}
+body.simple {
+padding:4em;
+font-family: "helvetica neue", helvetica, arial, sans-serif;
+width:800px;
+border:2px solid black;
+padding:1.5em;
+margin-left:auto;
+margin-right:auto;
+margin-top:4em;
+margin-bottom:4em;
+}
+
+h2.institution, h1.maintitle {
+margin-left:0;
+}
+
+table {
+font-size:10pt;
+}
+/*
+td.odd_label, table.attdef td.odd_label {
+width:15%;
+}
+
+td.odd_value, table.attdef td.odd_value {
+width:85%;
+}
+*/
+
+pre, div.pre, div.pre_eg, pre.eg, div.eg {
+border-top-width: 2px;
+border-bottom-width: 2px;
+border-left-width: 2px;
+border-right-width: 2px;
+border-style: solid;
+white-space:pre-wrap;
+}
+
+img {
+max-width:640px;
+margin:.5em;
+border:1px solid black;
+}
+
+address {
+font-size:10pt;
+}

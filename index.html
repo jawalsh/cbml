@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Comic Book Markup Language: Home</title>
+	<meta name="generator" content="BBEdit 10.1" />
+	<style type="text/css">
+		body {
+			font-family:Cochin,Georgia,serif;
+			font-size:14pt;
+			background-image:url(images/background.jpg);
+			
+		}
+	
+		#main {
+			margin-top:2em;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:2em;
+			border:2px solid black;
+			width:793px;
+			background-color:white;
+		}
+
+		#header {
+			border-bottom: 1px solid black;
+			height:98px;
+		}
+		
+		#content {
+			padding-right:2em;
+			padding-left:2em;
+			padding-bottom:2em;
+		}
+		
+		#footer {
+			background-color:#7d110c;
+			border-top:1px solid black;	
+			font-size:8pt;
+			color:white;
+			padding:.5em;
+			font-family:"Helvetica Neue",helvetica,sans-serif;
+		}
+		
+		a {
+		text-decoration:none;
+		}
+		
+		a:hover {
+		text-decoration:underline;
+		}
+		#footer a {
+			color:white;
+			
+		}
+		
+		
+		h1 {
+			margin-bottom:.5em;
+			font-size:110%;
+		}
+		
+		h2 {
+			font-size:100%;
+			font-style:italic;
+			font-weight:normal;
+		}
+		
+		.code {
+			font-family:courier,monospace;
+		}
+		
+	</style>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31051795-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div id="main">
+	<div id="header">
+		<img alt="CBML banner" src="images/cbml_banner.png" />
+	</div>
+	<div id="content">
+	<div>
+	<h1>What is CBML?</h1>
+	<p>
+	Comic Book Markup Language, or CBML, is an XML vocabulary for encoding multiform documents that are variously called comics, comic books, and “graphic novels” as well as other documents that integrate comics content or that share formal features with comics content.
+	</p>
+	<p>
+		CBML is based on the <cite><a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/">Text Encoding Initiative P5: Guidelines for Electronic Text Encoding and Interchange</a></cite>. The <cite>Text Encoding Initiative Guidelines</cite>, or simply TEI, provide a scholarly encoding language for the digital representation and analysis of multitudinous and disparate document types: inscriptions and papyri; illuminated manuscripts; authorial holograph manuscripts; correspondence; printed books of prose, verse, and drama; critical and scholarly editions; and born-digital documents. TEI provides general purpose tags for encoding basic structural divisions (e.g., chapters, paragraphs, stanzas and lines of verse, and bibliographic citations) as well as very specific modules targeted at more specific content (e.g., manuscripts, dictionaries, and critical editions).
+		</p>
+		<p>
+		By using TEI as a foundation for CBML, the standard TEI tags may be used to encode many of the features found in comics and also much of the non-comics content that is so common in comic books. For instance, many comic books contain editorial and news features, prose fiction, fan mail, and advertisements. CBML uses TEI's documented customization mechanisms to add to the standard TEI tag set a number of elements targeted at the distinctive formal features of comics, such as panels, balloons, and narrative captions. CBML also suggests ways to use standard TEI elements and attributes to encode other distinctive features of comics, like “panel groups” and sound effects (POW! THWIP!, FOOM!).
+		</p>
+		</div>
+		<div>
+		<h1>Comic Book Markup Language: An Introduction and Rationale</h1>
+		<p>
+		A lengthy article, <a href="http://www.digitalhumanities.org/dhq/vol/6/1/000117/000117.html">“Comic Book Markup Language: An Introduction and Rationale”</a> (Walsh, 2012), published in <cite><a href="http://digitalhumanities.org/dhq/">Digital Humanities Quarterly</a></cite>, provides an introduction to CBML, discusses the rationale and motivations behind the development of CBML, and suggests areas for future work. The article also includes many full-color illustrations and examples.
+		</p>
+</div>
+
+		
+		<div>
+			<h1>Tag Set Documentation</h1>
+			<p>The full <a href="schema/cbml.html">Tag Set Documentation</a> includes all the TEI elements that are available in the default CBML customization.</p>
+			<div>
+			<h2>Tag Set Documentation: Custom CBML elements</h2>
+			<ul>
+			<li class="code"><a href="schema/cbml.html#TEI.cbml_panel">&lt;cbml:panel></a></li>
+			<li class="code"><a href="schema/cbml.html#TEI.cbml_balloon">&lt;cbml:balloon></a></li>
+			<li class="code"><a href="schema/cbml.html#TEI.cbml_caption">&lt;cbml:caption></a></li>
+			</ul>
+			</div>
+</div>
+<div>
+<h2>Tag Set Documentation: Standard TEI elements with CBML exempla</h2>
+<ul>
+<li><a class="code" href="schema/cbml.html#TEI.div">&lt;div></a> for comics panel groups (<span class="code">&lt;div type="panelGrp"></span>) and advertisements (<span class="code">&lt;div type="advert"></span>)</li>
+<li><a class="code" href="schema/cbml.html#TEI.sound">&lt;sound></a> for comics “sound effects”</li>
+</ul>
+			
+
+		</div>
+		<div>
+		<h1>Downloads</h1>
+		<p style="text-weight: bold; font-style:italic;">The ODD file was updated and schemas regenerated against the 4.0.0 (2020-02-13) version of TEI P5 on 2020-06-12.</p>
+		<dl>
+		<dt><a href="schema/cbml.odd">cbml.odd</a></dt>
+		<dd>The ODD file that contains the CBML customizations. The ODD file format is used to configure and document TEI customizations such as CBML.</dd>
+		<dt><a href="schema/cbml.rng">cbml.rng</a></dt>
+		<dd>A Relax NG (XML syntax) schema for CBML, derived from the CBML ODD file.</dd>
+		<dt><a href="schema/cbml.rnc">cbml.rnc</a></dt>
+		<dd>A Relax NG (compact syntax) schema for CBML, derived from the CBML ODD file.</dd>
+		</dl>
+	</div>
+	</div>
+	<div id="footer"><div style="float:right;margin-top:1.75em;margin-right:1em;"><img alt="Indiana University block IU logo black" style="position:relative;top:0px;vertical-align:middle;"  src="images/blockiu_crimson.gif" /> <a href="http://www.iub.edu"><span style="font-family:Georgia,serif;">INDIANA UNIVERSITY</span></a></div> Last Updated: 12 June 2020. <br /> Comments: <a
+					href="mailto:jawalsh@indiana.edu">jawalsh@indiana.edu</a>
+				<br /> Published by the Digital Culture Lab, <a href="http://luddy.indiana.edu">Luddy School of Informatics, Computing, and Engineering</a>, <a href="http://www.iub.edu">Indiana University</a>. <br />Copyright &copy; 2002-2020 <a href="http://johnwalsh.name/">John
+				A. Walsh</a>. <br />
+				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work, CBML by <a
+					href="mailto:jawalsh@indiana.edu">John A. Walsh</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+				</div>
+
+</div>
+</body>
+</html>

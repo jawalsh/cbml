@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/cbml.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<!-- -->            
+<cbml:panel n="5" characters="#cap #anon_man" ana="#action-to-action" xml:id="eg_000">
+    <cbml:caption>
+        Cap acts quickly to tranquilize the gun-happy pedestrian... 
+    </cbml:caption>
+    <cbml:balloon xml:id="eg_007" type="speech" who="#cap">
+        A little <emph rendition="#b">sleep</emph> will do wonders for you! 
+    </cbml:balloon>
+    <sound>
+        SPLAT! 
+    </sound>
+    <cbml:balloon type="speech" who="#anon_man">
+        Ugh! 
+    </cbml:balloon>
+</cbml:panel>
+<!-- -->            
+<interpGrp resp="#jawalsh" type="panelTransition" xml:id="eg_001">
+    <desc>The interp elements below include vocabulary that may be used to characterize
+        the transition from the previous panel <emph>to</emph> the current panel. The transition types listed
+        below are defined by Scott McCloud in his <title>Understanding Comics</title>
+        <bibl><biblScope type="pp">(70-72)</biblScope></bibl>.</desc>
+    <interp xml:id="moment-to-moment"/>
+    <interp xml:id="action-to-action"/>
+    <interp xml:id="subject-to-subject"/>
+    <interp xml:id="scene-to-scene"/>
+    <interp xml:id="aspect-to-aspect"/>
+    <interp xml:id="non-sequitur"/>
+</interpGrp>
+<!-- -->
+<cbml:panel type="title">
+    <head>Samson and David</head>
+    <cbml:caption rendition="#uc">
+        Out of the mists of history
+        comes the mighty Samson--
+        like his famous ancestor,
+        Samson pits his temendous
+        strength against the forces
+        of evil and injustice--Mu…
+        high priest of evil, plots
+        against civilization…
+    </cbml:caption>
+    <bibl>
+        By—
+        <author>Alex Boon</author>
+    </bibl>
+</cbml:panel>
+<div type="panelGrp" xml:id="eg_002">
+    <cbml:panel characters="#david #samson">
+        <cbml:balloon who="#david" type="speech">What a funny looking truck
+            outside here… Never saw one like it before!</cbml:balloon>
+        <cbml:balloon who="#samson" type="speech">That’s strange! What’s it look
+            like?</cbml:balloon>
+    </cbml:panel>
+    <cbml:panel characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">You’re right--I never saw one
+            like this before!</cbml:balloon>
+        <cbml:balloon type="speech" who="#david">Wonder what it’s doing
+            here?</cbml:balloon>
+    </cbml:panel>
+    <cbml:panel characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">What the--!</cbml:balloon>
+        <cbml:balloon type="speech" who="#david">Gas---Help!</cbml:balloon>
+    </cbml:panel>
+    <cbml:panel characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">No time to look for doors
+            now!</cbml:balloon>
+        <sound>Crash!</sound>
+        <fw type="pageNum" place="lower-left">1</fw>
+    </cbml:panel>
+</div>
+<!-- -->     
+<div type="advert" xml:id="eg_003">
+    <head rend="background-color:black; color:white;" rendition="#x-large #center #uc">Poems
+        Wanted</head>
+    <ab type="floatingHead" rendition="#center #uc">To Be Set to Music</ab>
+    <p>Send one or more of your best poems today for <emph rendition="#uc">free examination</emph>.
+        Any subject. Immediate Consideration.</p>
+    <ab type="floatingHead" rendition="#center #uc">Phonograph Records Made</ab>
+    <ab>
+        <address>
+            <addrLine rendition="#uc #large #center"><orgName>Crown Music Co</orgName></addrLine>
+            <addrLine rendition="#center">49 W. 32 St., Studio 11, New York 1</addrLine>
+        </address>
+    </ab>
+</div>
+            <!-- -->
+<div type="advert" xml:id="eg_004">
+    <head type="main" rendition="#center #large">
+        <cbml:balloon type="speech"><emph rendition="#xx-large #blockletter #uc #red"> Look,
+            Fellows!</emph><lb/> You Can Win Your Choice of<lb/> Neat Prizes <emph
+                rendition="#x-large #blockletter #uc #red">Free</emph> Regularly<lb/>
+            <emph rendition="#xx-large #blockletter #u #uc #red">Plus</emph>
+            <hi rendition="#uc #small">as Much as</hi>
+            <measure commodity="USD" type="currency">$1.00</measure> to <measure commodity="USD"
+                type="currency">$5.00</measure>
+            <emph rendition="#uc">Cash</emph><lb/>
+            <emph rendition="#uc">Every Week!</emph>
+        </cbml:balloon>
+    </head>
+    <div>
+        <head rendition="#large #blockletter #red">If You’re a Boy 12 Years Old or Older, You<lb/>
+            Can Be a Happy, Prosperous <title rendition="#uc">Grit</title> Salesman</head>
+        <p>Join over 30,000 who win dandy <emph rendition="#uc">free</emph> Prizes and make as much
+            as $1.00 to $5.00 or even more, selling <title rendition="#uc">Grit</title> to friends,
+            neighbors, relatives and others, every week. Everyone is eager to buy <title
+                rendition="#uc">Grit</title> from you at only 15¢ a copy, because it contains World
+            News, Sports, Women’s Features, Children’s Page, Popular Comics, Games, Puzzles,
+            Exciting Fiction.</p>
+    </div>
+    <div>
+        <head>GRIT Sells for 15¢ a Copy … You Keep 5¢ Profit!</head>
+        <p>Yes, 5¢ out of every 15¢ you take in is yours to keep. Sell only 20 copies a week, and
+            you make $1.00 profit each week, $52.00 in a year … plus valuable Prizes you win <emph
+                rendition="#uc">free</emph> regularly! We’ll help you get started in a profitable
+            business of your own. Mail the coupon <emph rendition="#uc">today</emph>!</p>
+        <div>
+            <div rend="float:left;">
+                <head>Over 30,000 Boys Make Money and<lb/> Get Nifty Prizes Without 1¢ Cost</head>
+                <p>We’ll send you <title rendition="#uc">Grit</title> right away, by mail, along
+                    with many valuable selling helps. You pay <emph rendition="#uc">only</emph> for
+                    the copies you sell until you know how many to order. Like 30,000 other boys,
+                    you’ll find selling <title rendition="#uc">Grit</title> is easy,fun—and
+                    profitable.</p>
+            </div>
+            <div rend="float:left;">
+                <head rendition="#large #uc">Mail This Coupon Today!</head>
+                <p>If coupon is already torn out, print your name, address, age and date of birth
+                    and mail it to: 
+                    <address>
+            <addrLine><orgName rendition="#blockletter #large #blockletter #red">GRIT</orgName></addrLine>
+            <addrLine>Department MC10-9</addrLine>
+            <addrLine>Williamsport, Penna. 17701</addrLine>
+        </address>
+                    <note rendition="#x-small">Papers sent only to boys in Continental U.S.</note>
+                </p>
+            </div>
+            <div type="form" rend="background-color:yellow; border: 2px dashed black; float:right;">
+                <ab>
+                    <note rendition="#fright #small #uc">Please Print</note>
+                    <address>
+        <addrLine rendition="#fleft"><orgName rendition="#blockletter #x-large">GRIT PUBLISHING CO.,</orgName></addrLine>
+        <addrLine rendition="#fleft">Williamsport, Penna. 17701</addrLine>
+        <addrLine rendition="#fright">Department MC10-9</addrLine>
+        </address>
+                </ab>
+                <p>Send my first bundle of papers, selling helps and prize offers.</p>
+                <ab>
+                    <seg type="form-field">
+                        <label>Name</label>
+                    </seg>
+                    <lb/>
+                    <seg type="form-field">
+                        <label>Are You a Boy?</label>
+                    </seg>
+                    <seg type="form-field">
+                        <label>Age</label>
+                    </seg>
+                    <seg type="form-field">
+                        <label>Date Born</label>
+                    </seg>
+                    <seg type="form-field">
+                        <label>Year</label>
+                    </seg>
+                    <lb/>
+                    <seg type="form-field">
+                        <label>In Care of</label>
+                    </seg>
+                    <lb/>
+                    <seg type="form-field">
+                        <label>Street and No.</label>
+                    </seg>
+                    <seg type="form-field">
+                        <label>R.F.D.</label>
+                    </seg>
+                    <lb/>
+                    <seg type="form-field">
+                        <label>Post Office</label>
+                    </seg>
+                    <seg type="form-field">
+                        <label>State</label>
+                    </seg>
+                    <lb/>
+                    <seg type="form-field">
+                        <label>Zip Code No.</label>
+                    </seg>
+                    <lb/>
+                    <seg type="form-field">
+                        <label>Print Your<lb/>Last Name<lb/>Plainly Here</label>
+                    </seg>
+                </ab>
+            </div>
+        </div>
+    </div>
+</div>
+            
+            <!-- -->
+<cbml:panel characters="#spidey #jjj" n="3" xml:id="eg_ae1">
+    <cbml:balloon xml:id="eg_006" who="#jjj" type="audio" subtype="telecast" rendition="#uc">
+        My name is J. Jonah Jameson, publisher of 
+        <title rendition="#b">Now</title> magazine and the 
+        <title rendition="#b">Daily Bugle</title><emph rendition="#b">!</emph> 
+        I am sponsoring this program in the public interest, to expose 
+        <emph rendition="#b">Spider-Man</emph> to the pubic as the menace he is!
+    </cbml:balloon>
+</cbml:panel>
+<cbml:panel characters="#pparker" n="1" xml:id="eg_af2">
+    <cbml:balloon type="speech" rendition="#uc"> Some day I'll show them them!
+            <sound>sob</sound> Some day they'll be sorry! --Sorry that they laughed at
+        me!</cbml:balloon>
+    <floatingText type="diegetic" subtype="poster">
+        <body rendition="#center">
+            <head rendition="#uc #large"> Science<lb/> Exhibit </head>
+            <p rendition="#uc"> Experiments<lb/> in<lb/> Radio-Activity </p>
+            <p rendition="#uc"> Open<lb/> to the<lb/> Public </p>
+            <ab rendition="#right-arrow #red"> Room 30 </ab>
+        </body>
+    </floatingText>
+</cbml:panel>
+            <!-- -->
+<div type="panelGrp" xml:id="eg_af3">
+    <cbml:panel n="1">
+        <cbml:balloon type="speech" who="#jjj" rendition="#uc">Well, let's just see with the <emph rendition="#b">distinguished competition</emph> has for their headline this morning…</cbml:balloon>
+        <floatingText type="diegetic" subtype="newspaper">
+            <body>
+            <ab type="masthead"><title rendition="#uc #large #center">New York Globe</title><lb/><hi rendition="#small #center #uc">New York's Oldest Daily Newspaper</hi></ab>
+                <div type="news_story">
+                    <head type="headline" rendition="#x-large #uc #b">Webbed Wonder<lb/>Wows City!</head>
+                </div>
+            </body>
+        </floatingText>
+    </cbml:panel>
+    <cbml:panel n="2">
+        <cbml:balloon type="speech" who="#jjj" rendition="#uc">
+            <p>Huh.</p>
+            <p>And let's see, what did the <title rendition="#b">Journal</title> run this morning?</p>
+        </cbml:balloon>
+        <floatingText type="diegetic" subtype="newspaper">
+            <body>
+                <ab type="masthead" rendition="#center #large #uc">The New York Journal</ab>
+                <div type="news_story">
+                    <head type="headline" rendition="#x-large #uc #b #center">A Spider-Man<lb/>Among Us</head>
+                </div>
+            </body>
+        </floatingText>
+    </cbml:panel>
+    <cbml:panel n="3">
+        <cbml:balloon type="speech" who="#jjj" rendition="#uc">
+            <p>And…<emph rendition="#b">what,</emph> pray tell, did the <title rendition="#b">Daily Bugle</title> decide to run this morning?</p>
+            <p>Some fat cat's <emph rendition="#b">house</emph> catches on fire.</p>
+        </cbml:balloon>
+        <floatingText type="diegetic" subtype="newspaper">
+            <body>
+                <ab type="masthead" rendition="#center #large #uc">The New York Journal</ab>
+                <div type="news_story">
+                    <head type="headline" rendition="#x-large #uc #b #center">A Spider-Man<lb/>Among Us</head>
+                </div>
+            </body>
+        </floatingText>
+    </cbml:panel>
+    <!-- … -->
+</div>
+<!-- <note type="panelDesc"> -->
+<div type="panelGrp" subtype="page" xml:id="eg_af4">
+    <!-- Preceding panels ommitted to conserve space. -->
+    <cbml:panel n="7" characters="#hulk">
+        <note type="panelDesc" resp="#jawalsh"> The hulk kneels in the grass, 
+            surrounded by trees. He leans back with hands on his head, 
+            lamenting his transformation back into Banner. 
+        </note>
+        <cbml:balloon type="speech" rendition="#jaggies"> No!<lb/>
+            <emph>No!</emph>
+        </cbml:balloon>
+        <cbml:balloon type="speech"> It feels like-- <lb/>my <emph>blood</emph>-- <lb/>is on
+            <emph>fire!</emph>
+        </cbml:balloon>
+        <cbml:balloon type="speech">
+            <p>My <emph>skins--<lb/> shrinking--<lb/> shrinking--!!</emph>
+            </p>
+            <p>Can't--<lb/>
+                <emph>fight</emph> it-- anymore--! </p>
+        </cbml:balloon>
+    </cbml:panel>
+    <cbml:panel n="8" characters="#hulk #banner">
+        <note type="panelDesc" resp="#jawalsh"> Set against an abstract background, 
+            a sequence of four views of the Hulk's and Banner's head depicts
+            the Hulk's transition back to Bruce Banner. </note>
+        <cbml:caption>Thus, there and then--<lb/> suddenly--uncontrollably--<lb/> the awesome
+            <emph>transformation</emph><lb/> starts--until-- </cbml:caption>
+    </cbml:panel>
+    <!-- <cbml:balloon -->
+    <cbml:panel>
+        <cbml:balloon xml:id="eg_008" type="speech" who="#cap">
+            A little <emph rendition="#b">sleep</emph> will do wonders for you! 
+        </cbml:balloon>
+    </cbml:panel>
+    
+    <!-- captions -->
+    <cbml:panel>
+    <cbml:caption xml:id="eg_009" rendition="#uc">Thus, there and then--<lb/> suddenly--uncontrollably--<lb/> the awesome
+        <emph>transformation</emph><lb/> starts--until-- </cbml:caption>
+    </cbml:panel>
+    
+    
+</div>
+            <div>
+                <!-- caption -->
+<cbml:panel>
+    <cbml:caption rendition="#uc">
+        <hi rendition="#b">S</hi>lowly the mists begin to clear, as a
+        strange, startling world takes form!
+        A world in which the impossible is
+        believable, and the incredible is
+        commonplace--the world of the
+        dark domain--the world of the
+        dread <emph rendition="#b">Dormammu!</emph>
+    </cbml:caption>
+    <cbml:balloon type="speech" who="#drstrange">
+        The journey is over!
+        But, judging by the 
+        unspeakable menace
+        I see before me, the
+        <emph rendition="#b">battle</emph> is just begun!
+    </cbml:balloon>
+</cbml:panel>
+            </div>
+        </body>
+    </text>
+</TEI>

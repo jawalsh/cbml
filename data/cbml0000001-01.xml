@@ -1,0 +1,2864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- =================================================================== -->
+<!-- MODULE:    ComicBook Markup Language (CBML) TEI cbml.xml file       -->
+<!-- VERSION:   0.80                                                     -->
+<!-- DATE:      February 2003                                            -->
+<!--                                                                     -->
+<!-- CBML Project INTERNAL VERSION CONTROL:                              -->
+<!-- $Id: cbml.xml,v 1.31 2004/03/10 15:27:38 jawalsh Exp $              -->
+<!-- ==================================================================  -->
+
+<?oxygen RNGSchema="../schema/cbml.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0" xml:id="cbml0000001-01">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Captain America 193</title> 
+				<editor>
+					<persName xml:id="jawalsh">John A. Walsh</persName>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					Indiana University CBML Project 
+				</publisher>
+				<pubPlace>
+					Bloomington, Indiana 
+				</pubPlace>
+				<idno type="cbml">
+					0000001 
+				</idno>
+				<availability status="restricted">
+					<p>
+						Original source material is copyright © 1975 by Marvel Comics Group. The original editorial contributions of this electronic edition are copyright © 2010 John A. Walsh. 
+					</p>
+				</availability>
+				<date when="2008">
+					2010
+				</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblFull>
+					<titleStmt>
+						<title level="m" type="main">The Madbomb Screamer in the Brain</title> <title level="m" type="parallel">"Madbomb": It Can Destroy the World!</title> 
+						<respStmt>
+							<resp>writer</resp>
+							<resp>penciller</resp>
+							<persName key="kirby">Jack Kirby</persName>
+						</respStmt>
+						<respStmt>
+							<resp>inker</resp>
+							<persName key="giacoia">Frank Giacoia</persName>
+						</respStmt>
+						<respStmt>
+							<resp>letterer</resp>
+							<persName key="costanza">John Costanza</persName>
+						</respStmt>
+						<respStmt>
+							<resp>colorist</resp>
+							<persName key="cohen_janice">Janice Cohen</persName>
+						</respStmt>
+					</titleStmt>
+					<publicationStmt>
+						<publisher>
+							Marvel Comics Group 
+						</publisher>
+						<pubPlace>
+							New York, New York 
+						</pubPlace>
+						<availability status="restricted">
+							<p>
+								Copyright © 1975 by Marvel Comics Group 
+							</p>
+						</availability>
+						<date when="1976-01">
+							January, 1976 
+						</date>
+					</publicationStmt>
+					<seriesStmt>
+						<title level="j">Captain America</title> 
+						<idno type="volume">
+							1
+						</idno>
+						<idno type="issue">
+							193
+						</idno>
+					</seriesStmt>
+				</biblFull>
+				<listPerson>
+					<person xml:id="cap">
+						<occupation>superhero</occupation>
+						<sex>male</sex>
+						<persName>Captain America</persName>
+					</person>
+					<person xml:id="steve_rogers">
+						<occupation>superhero</occupation>
+						<sex>male</sex>
+						<persName>Steve Rogers</persName>
+					</person>
+					<person xml:id="falc">
+						<occupation>superhero</occupation>
+						<sex>male</sex>
+						<persName>The Falcon</persName>
+					</person>
+					<person xml:id="sam_wilson">
+						<occupation>superhero</occupation>
+						<sex>male</sex>
+						<persName>Sam Wilson</persName>
+					</person>
+					<person xml:id="leila">
+						<sex>female</sex>
+						<persName>Leila</persName>
+					</person>
+					<person xml:id="kissinger">
+						<sex>male</sex>
+						<occupation>Secretary of State of the United States of America</occupation>
+						<persName>Henry Kissinger</persName> 
+					</person>
+					<person xml:id="anon_man">
+						<sex>male</sex>
+						<persName>Anonymous Man</persName> 
+					</person>
+					<person xml:id="anon_woman">
+						<sex>female</sex>
+						<persName>Anonymous Woman</persName>
+					</person>
+					
+					
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition scheme="css" xml:id="i">
+					font-style: italic; 
+				</rendition>
+				<rendition scheme="css" xml:id="b">
+					font-weight: bold; 
+				</rendition>
+				<rendition scheme="css" xml:id="u">
+					font-rendition: underline; 
+				</rendition>
+				<rendition scheme="free" xml:id="outline">
+					outline 
+				</rendition>
+				<rendition scheme="free" xml:id="splash">
+					splash 
+				</rendition>
+			</tagsDecl>
+		</encodingDesc>
+	</teiHeader>
+	<!-- genre term taken from OCLC GSAFD genre terms -->
+	<text>
+		<interpGrp resp="#jawalsh" type="panel-transition">
+			<desc>The interp elements below include vocabulary that may be used to characterizes the transition from the previous panel <emph>to</emph> the current panel. The examples below are borrowed from Scottt McCloud's six transition types used in the suggested values below <bibl>(McCloud <title>Understanding Comics</title> 70-72)</bibl>. These may be augmented or replaced by any convenient classification scheme or typology.</desc>
+			<interp xml:id="moment-to-moment"/>
+			<interp xml:id="action-to-action"/>
+			<interp xml:id="subject-to-subject"/>
+			<interp xml:id="scene-to-scene"/>
+			<interp xml:id="aspect-to-aspect"/>
+			<interp xml:id="non-sequitur"/>
+		</interpGrp>
+		<front>
+			<div n="cover">
+				<pb n="front cover verso" corresp="f001"/>
+				<div type="masthead">
+					<bibl>
+					<title>CAPT. AMERICA</title> 
+					<publisher>
+						Marvel Comics Group™ 
+					</publisher>
+					<note>
+						APPROVED BY THE COMICS CODE AUTHORITY 
+					</note>
+					<measure type="currency" commodity="USD" quantity="0.25">
+						25¢ 
+					</measure>
+					<biblScope type="issue">
+						193 
+					</biblScope>
+					<date>
+						Jan 
+					</date>
+					<biblScope type="unknown">
+						02453 
+					</biblScope>
+					<title>Captain America</title> 
+					</bibl>
+				</div>
+				<div>
+					<p rendition="#splash">
+						KING KIRBY IS BACK--AND GREATER THAN EVER! 
+					</p>
+					<p rendition="#splash">
+						"MADBOMB" IT CAN DESTROY THE WORLD! 
+					</p>
+					<byline>
+						<persName key="kirby">
+							J. Kirby 
+						</persName>
+						&amp; 
+						<persName key="romita">
+							J. Romita 
+						</persName>
+					</byline>
+				</div>
+				<pb n="front cover recto" corresp="f002"/>
+				<div type="advert_group">
+					<div type="advert">
+						<p>
+							PIPER COMANCHE P-39 AIR-A-COBRA CESSNA 150 MILITARY SKYMASTER NOW YOU CAN FLY A PLANE THE FIRST TIME YOUR TRY AUTO PILOT HAND CONTROL The secret to your success is our Automatic Pilot. Every Cox Sure Flyer™ has one. 
+						</p>
+						<p>
+							Switch it on, and you have better control over take-offs and landings. You have a more level flight. 
+						</p>
+						<p>
+							And you 
+							<emph rendition="#u">
+								don't 
+							</emph>
+							have to spin around and make yourself dizzy. You can fly your plane standing still 
+						</p>
+						<p>
+							Then, when you've gotten some experience, you can switch from Automatic Pilot to Hand Control. this places you in complete command. 
+						</p>
+						<p>
+							You can do climbs, dives, and touch-and-go landings. 
+						</p>
+						<p>
+							And if you should have a crash landing, don't worry. While no plane is crash proof, your Cox Sure Flyer is designed to be impact resistant. 
+						</p>
+						<p>
+							Cox Sure Flyers take a lot of rist out of learning to fly. 
+						</p>
+						<p>
+							COX SURE FLYERS With Automatic Pilot 
+						</p>
+						<p>
+							For a free catalogue, write to: I.M. cox Manufacturing Co., Inc. • Subsidiary of Leisure Dynamics, Inc. • Box MC975 • Santa Anna, CA 92705 
+						</p>
+					</div>
+				</div>
+			</div>
+			<pb n="1" corresp="f003"/>
+			<cbml:panel type="page">
+				
+				<div type="text_box">
+					
+					<p>
+						The great American bi-centennial is coming!!!--But, will it be atime for joy--or the mement of this country's greatest danger!!?? There are thos who 
+						<emph rendition="#b">
+							know... 
+						</emph>
+						The hidden heroes in a vast, desperate search fro the most 
+						<emph rendition="#b">
+							malignant 
+						</emph>
+						conspirators in our history--and their 
+						<emph rendition="#b">
+							insidious 
+						</emph>
+						creation--the madbomb screamer in the brain! 
+					</p>
+				</div>
+				<div type="credits">
+					<bibl>
+						<respStmt>
+							<resp>writer, artist, editor</resp>
+							<persName key="kirby">
+								Jack Kirby 
+							</persName>
+						</respStmt>
+						<respStmt>
+							<resp>inker</resp>
+							<persName key="giacoia">
+								Frank Giacoia 
+							</persName>
+						</respStmt>
+						<respStmt>
+							<resp>letter</resp>
+							<persName key="costanza">
+								John Costanza 
+							</persName>
+						</respStmt>
+						<respStmt>
+							<resp>colorist</resp>
+							<persName key="cohen_janice">
+								Janice Cohen 
+							</persName>
+						</respStmt>
+					</bibl>
+				</div>
+				<div type="splash">
+					<p>
+						Stan Lee presents Captain America and the Falcon 
+					</p>
+				</div>
+				
+			</cbml:panel>
+		</front>
+	<body>
+		<div type="page" >
+<!-- jawalsh test for page numbers []-->
+			<pb n="2" corresp="f004"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #leila #falc">
+					<cbml:caption>
+						The 
+						<emph rendition="#b">
+							trial 
+						</emph>
+						of the Falcon is ended, and its 
+						<emph rendition="#b">
+							memories 
+						</emph>
+						put out of the 
+						<emph rendition="#b">
+							minds 
+						</emph>
+						of Sam Wilson and Cap, and so, days later in New York... 
+					</cbml:caption>
+					<cbml:balloon who="#cap" type="speech">
+							Bring on the health food Leila... It may save the 
+							<emph rendition="#b">
+								Falcon 
+							</emph>
+							from a bruised ego... 
+					</cbml:balloon>
+					<cbml:balloon type="speech" who="#leila">
+							I don't know how you 
+							<emph rendition="#b">
+								clowns 
+							</emph>
+							conned me into brewin' java for you--but don't make a 
+							<emph rendition="#b">
+								habit 
+							</emph>
+							of it! 
+					</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								Don't 
+							</emph>
+							fret little Leila. Cap's happily 
+							<emph rendition="#b">
+								deluding 
+							</emph>
+							that he can put me down 
+					</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#cap #leila #falc">
+					<cbml:balloon type="speech" who="#cap">
+							Delusion, eh? I can feel you 
+							<emph rendition="#b">
+								weakening, 
+							</emph>
+							my friend--turning to mere 
+							<emph rendition="#b">
+								putty 
+							</emph>
+							in my grip! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#leila">
+							Take this stuff, "heroes," before I 
+							<emph rendition="#b">
+								throw 
+							</emph>
+							it at you! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								Hold it, 
+							</emph>
+							Leila! Things are going 
+							<emph rendition="#b">
+								my 
+							</emph>
+							way--He's 
+							<emph rendition="#b">
+								almost 
+							</emph>
+							out of the ball-game! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#cap #falc">
+					<cbml:caption>
+						At that moment, the 
+						<emph rendition="#b">
+							mind-wave 
+						</emph>
+						strikes! It lances out of nowhere--an evil and 
+						<emph rendition="#b">
+							invisible 
+						</emph>
+						phenomenon which causes Cap to explode with 
+						<emph rendition="#b">
+							hate! 
+						</emph>
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								I'll break you, Falcon! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								Huh?! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#falc">
+					<cbml:caption>
+						The Falcon receives the next salvo! It instantly 
+						<emph rendition="#b">
+							ignites 
+						</emph>
+						the fury and frustration beneath the color of "Snap" Wilson's skin... He roars in anger! 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								Try it, whitey! Just try it--and I'll--! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#cap #falc leila">
+					<cbml:caption>
+						Tempers 
+						<emph rendition="#b">
+							flare! 
+						</emph>
+						Friends become deadly 
+						<emph rendition="#b">
+							enemies!-- 
+						</emph>
+						And shouts turn to 
+						<emph rendition="#b">
+							blows...! 
+						</emph>
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								That does it! 
+							</emph>
+							I'm going to 
+							<emph rendition="#b">
+								hammer 
+							</emph>
+							you into the ground! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#leila">
+							<emph rendition="#b">
+								Good Lord! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="3" corresp="f005"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #leila #falc">
+					<cbml:caption>
+						Suddenly, Cap draws back... He struggles to repress his 
+						<emph rendition="#b">
+							violent feelings... 
+						</emph>
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								Wait! 
+							</emph>
+							Back off, Falcon! What we're doing is--is 
+							<emph rendition="#b">
+								madness! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							Y-You're 
+							<emph rendition="#b">
+								right! 
+							</emph>
+							W-We're acting like 
+							<emph rendition="#b">
+								Fools! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#falc #leila">
+					<cbml:caption>
+						Marshalling forces of 
+						<emph rendition="#b">
+							superb 
+						</emph>
+						discipline, the two super-heroes 
+						<emph rendition="#b">
+							recover 
+						</emph>
+						their sanity... But, Leila is 
+						<emph rendition="#b">
+							not 
+						</emph>
+						so fortunate. 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								Leila! 
+							</emph>
+							Put down that knife! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#leila">
+							Not until I 
+							<emph rendition="#b">
+								finish 
+							</emph>
+							off the two of you! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#leila #falc #cap">
+					<cbml:balloon type="speech" who="#leila">
+							<emph rendition="#b">
+								Let me go! 
+							</emph>
+							Don't stop me! I-I've 
+							<emph rendition="#b">
+								got 
+							</emph>
+							to--! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								Cap! 
+							</emph>
+							She's slipped her tracks!--Just like 
+							<emph rendition="#b">
+								we 
+							</emph>
+							did! Something's 
+							<emph rendition="#b">
+								wrong! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								Disarm 
+							</emph>
+							her before she injures herself with that knife! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							No, Leila! 
+							<emph rendition="#b">
+								Stop! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#cap">
+					<cbml:caption>
+						Cap knows nothing about the "mad bomb"--but, its effect has already spread to the streets! A brick suddenly 
+						<emph rendition="#b">
+							shatters 
+						</emph>
+						one of the windows 
+					</cbml:caption>
+					<sound>
+						CRASH! 
+					</sound>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#falc #leila #cap">
+					<cbml:caption>
+						The sound of 
+						<emph rendition="#b">
+							chaos 
+						</emph>
+						filters into the apartment... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#falc">
+							W-What's 
+							<emph rendition="#b">
+								happening? 
+							</emph>
+							Has the whole town 
+							<emph rendition="#b">
+								freaked out? 
+							</emph>
+							Listen to that noise! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							Stay with Leila! 
+							<emph rendition="#b">
+								I'm going out there! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="4" corresp="f006"/>
+			<div type="advert_group">
+				<div type="advert">
+					<head>
+						WHAT TO SINK YOUR TEETH INTO WHEN YOU'RE HUNGRY AND YOU'RE NOT A WEREWOLF. 
+					</head>
+					<p>
+						Every now and then, do you get this uncontrollable urge to bite into something that's really got some meat in it? 
+					</p>
+					<p>
+						Are you tired of sugar-sweet snacks that dissolve in your mouth, and crunchy snacks that you can hardly tell you ate, and all the other boring stuff you have to put up with, every day? 
+					</p>
+					<p>
+						Well, take heart. And, while you're at it, take Slim Jim® along in your pocket. 
+					</p>
+					<p>
+						<name type="product">
+							Slim Jim 
+						</name>
+						is a chewy, all-meat snack that comes in five very un-boring flavors. Mild, spicy, salami, bacon, and pizza. And you can find it at the grocery store. Or at a lot of the places where you've been getting those sissy snacks. 
+					</p>
+					<p>
+						You might want to carry a few extra ones, too. Then, if you meet a werewolf, you can give him something to sink his teeth into instead of you. 
+					</p>
+					<p rendition="#b">
+						A LITTLE LESS THAN A MEAL. A LITTLE MORE THAN A SNACK. 
+					</p>
+				</div>
+				<div type="advert">
+					<head>
+						Ugly Blackheads — Out in Seconds 
+					</head>
+					<p>
+						<name type="product">
+							VACUTEX 
+						</name>
+					</p>
+					<p>
+						Keep your complexion free of black heads — look attractive instantly. Scientifically designed vacuum pump gently "lifts" out ugly blackheads safely. No pinching or squeezing. Made in U.S.A. — beware of imitations. Try 10 days — if not delighted return for refund. send 
+						<measure type="currency" commodity="USD" quantity="2.00">
+							$2 
+						</measure>
+						plus 
+						<measure type="currency" commodity="USD" quantity="0.25">
+							25¢ 
+						</measure>
+						pstg. &amp; hdlg. 
+						<address>
+							<orgName>
+								BALLCO PROD. CO., INC. 
+							</orgName>
+							<street>
+								181 MAIN ST. DEPT. 310-A, 
+							</street>
+							<placeName>
+								<settlement type="city">
+									WESTPORT 
+								</settlement>
+								, 
+								<region key="CT" type="state">
+									CONN. 
+								</region>
+							</placeName>
+							<postCode>
+								06881 
+							</postCode>
+						</address>
+					</p>
+				</div>
+				<div type="advert">
+					<p>
+						We Buy and Sell Comic Books 
+					</p>
+					<p>
+						<name type="product">
+							MARVEL COMICS GROUP CHECK LIST AND PRICE LIST 
+						</name>
+					</p>
+					<p>
+						48 page MARVEL pocket checklist with D.C. comic list and protective comic back only 
+						<measure type="currency" commodity="USD" quantity="0.50">
+							50¢ 
+						</measure>
+						Over 100,000 comics in stock! 
+					</p>
+					<p>
+						<address>
+							<persName>
+								ROBERT BELL 
+							</persName>
+							<postBox>
+								BOX 18 - 
+							</postBox>
+							<placeName>
+								<settlement type="city">
+									HAUPPAUGE 
+								</settlement>
+								, 
+								<region type="state" key="NY">
+									N.Y. 
+								</region>
+							</placeName>
+							<postCode>
+								11787 
+							</postCode>
+						</address>
+					</p>
+				</div>
+				<div type="advert">
+					<p>
+						make money FAST! 
+					</p>
+					<p>
+						FREE SALES KIT! 
+					</p>
+					<p>
+						Start making money at once in your spare time selling beautiful LIFETIME METAL SOCIAL SECURITY PLATES. Sells on sight! The fastest business to get into requiring NO investment. 
+					</p>
+					<p>
+						Everything you need will be sent in the FREE SALES KIT. Send coupon today. No obligation. 
+					</p>
+					<div type="form">
+						<p>
+							<address>
+								<orgName>
+									Anchor Specialties Co. 
+								</orgName>
+								<postBox>
+									DEPT M 14 BOX 3958 
+								</postBox>
+								<placeName>
+									<settlement type="city">
+										North Providence 
+									</settlement>
+									, 
+									<region type="state" key="RI">
+										R. I. 
+									</region>
+								</placeName>
+								<postCode>
+									02911 
+								</postCode>
+							</address>
+						</p>
+						<p>
+							<hi rendition="#i">
+								Rush money-making FREE SALES KIT. 
+							</hi>
+						</p>
+						<label>Name</label><!-- <input name="name"/> -->
+						<label>Address</label><!-- <input name="address"/> -->
+						<label>City</label><!-- <input name="city"/> -->
+						<label>State</label><!-- <input name="state"/> -->
+						<label>Zip</label><!-- <input name="zip"/> -->
+					</div>
+				</div>
+				<div type="advert">
+					<head>
+						FREE COMIC CATALOG 
+					</head>
+					<p>
+						SEND 
+						<emph rendition="#b">
+							NOW 
+						</emph>
+						FOR OUR BIG BUYING AND SELLING LISTS 
+					</p>
+					<p>
+						<address rendition="#b">
+							<orgName>
+								RICHARD ALF, 
+							</orgName>
+							<postBox>
+								BOX 20622-M, 
+							</postBox>
+							<placeName>
+								<settlement type="city">
+									SAN DIEGO 
+								</settlement>
+								, 
+								<region type="state" key="CA">
+									CALIFORNIA 
+								</region>
+							</placeName>
+							<postCode>
+								92120 
+							</postCode>
+						</address>
+					</p>
+				</div>
+				<div type="advert">
+					<p>
+						32 CARTOON LESSONS 
+					</p>
+					<p rendition="#b">
+						FUN-PACKED MONEY MAKING KIT 
+					</p>
+					<p>
+						<emph rendition="#b">
+							Many "EXTRAS": 
+						</emph>
+						Pyramid Idea Creator 
+						<lb/>
+						Head Positioner • Gag Cartoon Maker 
+						<lb/>
+						<emph rendition="#b">
+							And MORE!! 
+						</emph>
+						Only $2.00 — Order Today! 
+					</p>
+					<p>
+						<address>
+							<orgName rendition="#b">
+								ABC ART , 
+							</orgName>
+							<postBox>
+								Box 89-M, 
+							</postBox>
+							<placeName>
+								<settlement type="city">
+									Woodmere 
+								</settlement>
+								, 
+								<region type="state" key="NY">
+									N.Y. 
+								</region>
+							</placeName>
+							<postCode>
+								11598 
+							</postCode>
+						</address>
+					</p>
+				</div>
+				<div type="advert">
+					<div type="form">
+						<p>
+							Learn ACCOUNTING at HOME in spare time 
+						</p>
+						<p>
+							INCLUDED WITH COURSE 
+						</p>
+						<p>
+							APPROVED 
+							<unclear reason="illegible"/>
+							GI'S 
+							<unclear reason="illegible"/>
+							VETERANS 
+							<unclear reason="illegible"/>
+						</p>
+						<p>
+							1000s high pay "Big Income" jobs open to men, women in Accounting, Bookkeeping, Tas Return. Send for FREE "ACCOUNTING CAREER KIT." Approved for Veterans" 
+						</p>
+						<!-- <input name="NAME"/> -->
+						<!-- <input name="RANK"/> -->
+						<!-- <input name="ORGANIZATION"/> -->
+						<!-- <input name="CITY"/> -->
+						<!-- <input name="STATE"/> -->
+						<!-- <input name="ZIP"/> -->
+						<p>
+							<address>
+								<orgName>
+									NORTH AMERICAN SCHOOL OF ACCOUNTING 
+								</orgName>
+								<street>
+									, Dept. RJOA5 
+								</street>
+								<street rendition="#i">
+									Careers by Home-Study 
+								</street>
+								<street>
+									4500 Campus Drive, 
+								</street>
+								<placeName>
+									<settlement type="city">
+										Newport Beach 
+									</settlement>
+									, 
+									<region type="state" key="CA">
+										Ca. 
+									</region>
+								</placeName>
+								<postCode>
+									92663 
+								</postCode>
+							</address>
+						</p>
+						<p>
+							729 
+						</p>
+					</div>
+				</div>
+				<div type="advert">
+					<p>
+						KARATE 
+					</p>
+					<p>
+						JUDO-SAVATE 
+					</p>
+					<p>
+						JIU-JITSU 
+					</p>
+					<p>
+						THE GREATEST DEFENSE SYSTEM KNOW TO MAN! 
+					</p>
+					<p>
+						Learn-At-Home-Course reveals hundreds of deadly self-defense secrets, which will enable you to protect yourself from any attacker! Easy to learn! 
+					</p>
+					<p>
+						FREE! 
+					</p>
+					<p>
+						FREE COLORFUL BROCHURE 
+					</p>
+					<p rendition="#b">
+						Send 25¢ to cover postage and handling costs. 
+					</p>
+					<p>
+						Send to: 
+						<address>
+							<orgName rendition="#b">
+								UNIVERSAL, 
+							</orgName>
+							<street>
+								Dept. P 
+							</street>
+							<postBox>
+								BOX 39303 
+							</postBox>
+							<placeName>
+								<settlement type="city">
+									DETROIT 
+								</settlement>
+								, 
+								<region type="state" key="MI">
+									MICHIGAN 
+								</region>
+							</placeName>
+							<postCode>
+								48239 
+							</postCode>
+						</address>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="5" corresp="f007"/>
+			<div type="advert_group">
+				<div type="advert">
+					<p>
+						<emph rendition="#splash">
+							It's here! 
+						</emph>
+						The sensational sequel you demanded! 
+					</p>
+					<p>
+						<title>SON OF ORIGINS OF MARVEL COMICS</title> By 
+						<persName key="lee">
+							<forename>
+								Stan 
+							</forename>
+							<surname>
+								Lee 
+							</surname>
+						</persName>
+					</p>
+					<p>
+						<persName key="lee">
+							<forename rendition="#b">
+								Stan 
+							</forename>
+							<addName type="epithet">
+								(The Man) 
+							</addName>
+							<surname rendition="#b">
+								Lee 
+							</surname>
+						</persName>
+						has done it again! Ol' smiley has put together a scintillatin' 
+						<emph rendition="#b">
+							second volume 
+						</emph>
+						of behind-the-scenes origins of some of the greatest heroes in Marveldom — 
+						<emph rendition="#b">
+							256 full-color pages of Marvel madness — 
+						</emph>
+						only 
+						<measure type="currency" commodity="USD" quantity="10.95" rendition="#b">
+							$10.95 
+						</measure>
+						(hard cover) or 
+						<measure type="currency" commodity="USD" quantity="6.95" rendition="#b">
+							$6.95 
+						</measure>
+						(deluxe paperback)! 
+					</p>
+					<p>
+						Here's what the critics said about <title rendition="#b">Origins of Marvel Comics</title> 
+						<emph rendition="#b">
+							: 
+						</emph>
+					</p>
+					<p>
+						<title>GALLERY MAGAZINE</title>: 
+						<quote>
+							"A phantasmagorical feast of friends and foes. Stan Lee has done a mervelous job of making them live." 
+						</quote>
+					</p>
+					<p>
+						<name>
+							RAY BRADBURY 
+						</name>
+						‚ — <title>LOS ANGELES TIMES</title>: 
+						<quote>
+							"Stan Lee's book is, to me, a better light bulb. Frivolous? Perhaps. Frightening? Sometimes." 
+						</quote>
+					</p>
+					<p>
+						<title>LIBRARY JOURNAL</title>: 
+						<quote>
+							"Lee's witty reminiscences. In the style that made him the best-known figure in the industry. Outlines the stories behind the comics. Recommended. 
+						</quote>
+					</p>
+					<p>
+						Imagine what they'll say about <title>Son of Origins</title>, featuring: 
+						<list>
+							<item>
+								The start-spanning 
+								<emph rendition="#outline">
+									Silver Surfer! 
+								</emph>
+							</item>
+							<item>
+								The mighty 
+								<emph rendition="#outline">
+									Avengers! 
+								</emph>
+							</item>
+							<item>
+								The uncanny 
+								<emph rendition="#outline">
+									X-Men! 
+								</emph>
+								" 
+							</item>
+							<item>
+								The dynamic 
+								<emph rendition="#outline">
+									Daredevil 
+								</emph>
+							</item>
+							<item>
+								The invinciple 
+								<emph rendition="#outline">
+									Iron Man 
+								</emph>
+							</item>
+							<item>
+								NICK FURY, agent of 
+								<emph rendition="#outline">
+									S.H.I.E.L.D. 
+								</emph>
+							</item>
+							<item>
+								The all-powerful 
+								<emph rendition="#outline">
+									Watcher 
+								</emph>
+							</item>
+						</list>
+					</p>
+					<p>
+						And, because we love ya, the first fantabulous <title rendition="#b">Origins of Marvel Comics</title>is 
+						<emph rendition="#b">
+							still 
+						</emph>
+						available. Order via coupon at right. 
+					</p>
+					<p>
+						You can pick up <title rendition="#b">Son of Origins</title>at your friendly neighborhood book store, or send directly to: 
+					</p>
+					<div type="form">
+						<p>
+							<address>
+								<orgName>
+									Simon &amp; Schuster, 
+								</orgName>
+								<street>
+									Dept. MD 
+								</street>
+								<street>
+									630 Fifth Avenue 
+								</street>
+								<placeName>
+									<settlement type="city">
+										New York 
+									</settlement>
+									, 
+									<region type="state" key="NY">
+										New York 
+									</region>
+								</placeName>
+								<postCode>
+									10020 
+								</postCode>
+							</address>
+						</p>
+						<p>
+							Please send me 
+							<!-- <input name=""/> -->
+							copy(ies) of the 
+							<emph rendition="#b">
+								New 
+							</emph>
+							<title rendition="#b">Son of Origins</title> 
+							<!--
+							<choice>
+								<option>
+									label="cloth, $10.95*"&gt;cloth, 
+									<measure type="currency" commodity="USD" reg="10.95">
+										$10.95* 
+									</measure>
+								</option>
+								<option label="paper, $6.95*">
+									paper, 
+									<measure type="currency" commodity="USD" quantity="6.95">
+										$6.95* 
+									</measure>
+								</option>
+							</choice>
+							-->
+							<lb/>
+							(check one) 
+						</p>
+						<p>
+							Please send me 
+							<!-- <input name="copies"/> -->
+							cop(ies) of the <title rendition="#b">Origins of Marvel Comics</title> 
+							<!--
+							<choice>
+								<option>
+									label="cloth, $10.95*"&gt;cloth, 
+									<measure type="currency" commodity="USD" reg="10.95">
+										$10.95* 
+									</measure>
+								</option>
+								<option label="paper, $6.95*">
+									paper, 
+									<measure type="currency" commodity="USD" quantity="6.95">
+										$6.95* 
+									</measure>
+								</option>
+							</choice>
+							-->
+							(check one) 
+							<!-- <input name="Name"/> -->
+							<!-- <input name="Address"/> -->
+							<!-- <input name="City"/> -->
+							<!-- <input name="State"/> -->
+							<!-- <input name="Zip"/> -->
+						</p>
+						<p>
+							*Relax! Ol' Marvel will pay postage and handling 
+						</p>
+					</div>
+				</div>
+				<div type="advert">
+					<p>
+						And you won't want to miss: 
+						<lb/>
+						<title>The Mighty Marvel 
+							<emph rendition="#outline">
+								Bicentennial Calendar 
+							</emph>
+						</title> 
+					</p>
+					<p>
+						<title>The Mighty Marvel Bicentennial Calendar 1976</title> 
+					</p>
+					<p>
+						Spiral-Bound 
+						<measure type="currency" commodity="USD" quantity="3.95">
+							$3.95 
+						</measure>
+					</p>
+					<p>
+						<emph rendition="#b">
+							A glorious full-color, 12-month trek through America's history with the Marvel superheroes! 
+						</emph>
+						Join the 
+						<emph rendition="#b">
+							Hulk 
+						</emph>
+						at Valley Forge, 
+						<emph rendition="#b">
+							Conan 
+						</emph>
+						at the battle of Lexington, and the 
+						<emph rendition="#b">
+							Avengers 
+						</emph>
+						at the crossing of the Delaware! Each big month is chock full of historical info and Marvel memorabilia; and you'll also get a series of 12 all-new, 
+						<emph rendition="#b">
+							full-color pin-ups 
+						</emph>
+						by Marvel's mightiest artists: 
+						<emph rendition="#b">
+							Romita, Trimpe, Kane, Buscema, Andru, Brunner, Starin 
+						</emph>
+						, and many more. It's the buy of the bicentennial — (leave it to your blushin' bullben to solve your xmas gift problem!) You can pick up <title rendition="#b"> The Mighty Marvel Bicentennial Calendar for 1976</title>at book stores and other havens of culture! Or send directly to: 
+					</p>
+					<div type="form">
+						<p>
+							<address>
+								<orgName>
+									Simon &amp; Schuster , 
+								</orgName>
+								<street>
+									Dept. ME 
+								</street>
+								<street>
+									630 Fifth Avenue 
+								</street>
+								<placeName>
+									<settlement type="city">
+										New York 
+									</settlement>
+									, 
+									<region type="state" key="NY">
+										New York 
+									</region>
+								</placeName>
+								<postCode>
+									10020 
+								</postCode>
+							</address>
+						</p>
+						<p>
+							Please send me 
+							<!-- <input/> -->
+							copy(ies) of the <title rendition="#b">Bicentennial Calendar</title>. I enclose 
+							<measure type="currency" commodity="USD" quantity="3.95">
+								$3.95 
+							</measure>
+							(includes postage &amp; handling) per copy. 
+						</p>
+						<!-- <input name="Name"/> -->
+						<!-- <input name="Address"/> -->
+						<!-- <input name="City"/> -->
+						<!-- <input name="Stage"/> -->
+						<!-- <input name="Zip"/> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="6" corresp="f006"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #anon_man">
+					<cbml:caption>
+						A moment later, Cap is greeted by an indescribable sight... 
+					</cbml:caption>
+					<cbml:balloon who="#cap" type="thought">
+							<emph rendition="#b">
+								Great Jupiter! 
+							</emph>
+							The streets are jammed with people. They're behaving like 
+							<emph rendition="#b">
+								wild animals! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#cap #anon_man">
+					<cbml:balloon who="#cap" type="thought" rendition="#uc">
+							That man firing the pistol--I'll have to 
+							<emph rendition="#b">
+								stop 
+							</emph>
+							him before someone stops a 
+							<emph rendition="#b">
+								bullet! 
+							</emph>
+						</cbml:balloon>
+					<sound>
+						POW! 
+					</sound>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#cap #anon_man">
+					<cbml:balloon who="#cap" type="thought">
+							Oh, oh! He's 
+							<emph rendition="#b">
+								seen 
+							</emph>
+							me! I hope he's 
+							<emph rendition="#b">
+								bad 
+							</emph>
+							with moving targets! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_man">
+							<emph rendition="#b">
+								Ha Ha Ha! 
+							</emph>
+							Your a 
+							<emph rendition="#b">
+								dead duck! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#cap #anon_man">
+					<cbml:balloon type="speech" who="#cap">
+							Sorry, friend! This duck 
+							<emph rendition="#b">
+								doesn't 
+							</emph>
+							aim to please! 
+						</cbml:balloon>
+					<sound>
+						WAM! 
+					</sound>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#cap #anon_man" ana="#action-to-action">
+					<cbml:caption>
+						Cap acts quickly to tranquilize the gun-happy pedestrian... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							A little 
+							<emph rendition="#b">
+								sleep 
+							</emph>
+							will do wonders for you! 
+						</cbml:balloon>
+					<sound>
+						SPLAT! 
+					</sound>
+					<cbml:balloon type="speech" who="#anon_man">
+							Ugh! 
+					</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="6" characters="#cap #anon_man">
+					<cbml:caption>
+						Suddenly--! 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#anon_man">
+							<emph rendition="#b">
+								Got'cha, Man! Y'ain't 
+							</emph>
+							jivin' your way out o' this! 
+							<emph rendition="#b">
+								Ha ha ha ha--! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								Easy, 
+							</emph>
+							fella! Stay 
+							<emph rendition="#b">
+								cool 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="7" corresp="f007"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #anon_man">
+					<cbml:caption>
+						Even as cap rids himself of another attacker, he finds himself in the center of a 
+						<emph rendition="#b">
+							destructive 
+						</emph>
+						human horde... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#anon_man">
+							Smash everything! Everything! 
+						</cbml:balloon>
+					<cbml:balloon who="#cap" type="thought">
+							They're all 
+							<emph rendition="#b">
+								raving 
+							</emph>
+							mad! It's as if every mental institution in the city has 
+							<emph rendition="#b">
+								released 
+							</emph>
+							its inmates! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#cap #anon_man">
+					<cbml:balloon type="speech" who="#anon_man">
+							<emph rendition="#b">
+								Heave! Heave! 
+							</emph>
+							Turn the car over! It's a load of fun! Ha ha ha! 
+						</cbml:balloon>
+					<cbml:balloon who="#cap" type="thought">
+							There's 
+							<emph rendition="#b">
+								no 
+							</emph>
+							stopping it! This 
+							<emph rendition="#b">
+								insane 
+							</emph>
+							vandalism is 
+							<emph rendition="#b">
+								out 
+							</emph>
+							of control. Everyone seems bent on destroying whatever they 
+							<emph rendition="#b">
+								see! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#cap #anon_man">
+					<cbml:caption>
+						It is the "madbomb" at work! Unseen and undiscovered, its 
+						<emph rendition="#b">
+							invisible 
+						</emph>
+						waves are screaming in a sea of minds--driving the crowds to violence creating a force agains which even super-heroes are 
+						<emph rendition="#b">
+							helpless! 
+						</emph>
+					</cbml:caption>
+				</cbml:panel>
+			</div>
+		</div>
+<!--
+	 	 <pageDiv  type="ad page" unit="page" extent="1">	<pb xmlns:xlink="http://www.w3.org/1999/xlink" n="[8]"/>
+	 </div>
+	 <pageDiv  type="ad page" unit="page" extent="1">	<pb xmlns:xlink="http://www.w3.org/1999/xlink" n="[9]"/>
+	 </div>
+	 -->
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="10" corresp="f010"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #anon_man">
+					<cbml:caption>
+						For the first time in his career, Captain America finds himself 
+						<emph rendition="#b">
+							unable 
+						</emph>
+						to use his courage or strength to stem the overwhelming 
+						<emph rendition="#b">
+							crunch 
+						</emph>
+						of humanity unhinged form its anchor of stability! 
+					</cbml:caption>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#cap #anon_man">
+					<cbml:caption>
+						The crazed mob thins out--Cap is severely battered--his senses reel... And in his brain is a 
+						<emph rendition="#b">
+							shrill, 
+						</emph>
+						rising 
+						<emph rendition="#b">
+							scream! 
+						</emph>
+					</cbml:caption>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#cap">
+					<cbml:caption>
+						Then, he 
+						<emph rendition="#b">
+							sees 
+						</emph>
+						it! Wedged in a space between two buildings... the 
+						<emph rendition="#b">
+							madbomb!" 
+						</emph>
+					</cbml:caption>
+					<cbml:balloon who="#cap" type="thought">
+							Sounds--inside my head--I-I'm strung out--must 
+							<emph rendition="#b">
+								control 
+							</emph>
+							my nerves... Eh? W-What's 
+							<emph rendition="#b">
+								that!!? 
+							</emph>
+							Looks like some kind of mechanism! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#cap">
+					<cbml:caption>
+						The mind-waves grow 
+						<emph rendition="#b">
+							stronger 
+						</emph>
+						as cap draws close... He struggles to resist the 
+						<emph rendition="#b">
+							savage 
+						</emph>
+						emotions that are boiling to the surface... 
+					</cbml:caption>
+					<cbml:balloon who="#cap" type="thought">
+							What is it? 
+							<emph rendition="#b">
+								What is it!? 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#cap">
+					<cbml:caption>
+						Somehow, he senses that this thing is the 
+						<emph rendition="#b">
+							source 
+						</emph>
+						of his torment--the epicenter of the 
+						<emph rendition="#b">
+							upheaval 
+						</emph>
+						surrounding him--slowly, 
+						<emph rendition="#b">
+							painfully 
+						</emph>
+						, cap 
+						<emph rendition="#b">
+							struggles 
+						</emph>
+						forward. 
+					</cbml:caption>
+				</cbml:panel>
+				<cbml:panel n="6" characters="#cap">
+					<cbml:caption>
+						When he is within reach of the object, his iron will gives way! He 
+						<emph rendition="#b">
+							yields 
+						</emph>
+						to the demons in his brain! Cap 
+						<emph rendition="#b">
+							becomes 
+						</emph>
+						one of them!! 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							AAAAA! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="7" characters="#cap">
+					<cbml:balloon type="speech" who="#cap">
+							Ha ha ha ha! I've got it! I've got it! Ha ha ha ha ha! 
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="11" corresp="f011"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #anon_man">
+					<cbml:caption>
+						Cap is 
+						<emph rendition="#b">
+							completely 
+						</emph>
+						absorbed in his find. He 
+						<emph rendition="#b">
+							ignores 
+						</emph>
+						the danger about him as he toys madly with it... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#anon_man">
+							<emph rendition="#b">
+								Hey! 
+							</emph>
+							Drop that! 
+							<emph rendition="#b">
+								I 
+							</emph>
+							want it! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							It's 
+							<emph rendition="#b">
+								ugly! Very ugly! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#cap #anon_man">
+					<cbml:balloon type="speech" who="#anon_man">
+							I 
+							<emph rendition="#b">
+								don't 
+							</emph>
+							care! If you don't give it to me, 
+							<emph rendition="#b">
+								I'll--!! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							It's 
+							<emph rendition="#b">
+								uhly! 
+							</emph>
+							It ought to be 
+							<emph rendition="#b">
+								smashed 
+							</emph>
+							to pieces! 
+							<emph rendition="#b">
+								smashed! smashed! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#cap">
+					<cbml:caption>
+						Before the hammer descends on cap, his shield 
+						<emph rendition="#b">
+							demolishes 
+						</emph>
+						the evil mechanism! 
+					</cbml:caption>
+					<sound>
+						KRAK! 
+					</sound>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#cap #anon_man">
+					<cbml:caption>
+						The screaming suddenly 
+						<emph rendition="#b">
+							stops-- 
+						</emph>
+						and, in the ensuing silence, 
+						<emph rendition="#b">
+							both 
+						</emph>
+						men sink 
+						<emph rendition="#b">
+							slowly 
+						</emph>
+						to the ground... 
+					</cbml:caption>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#cap">
+					<cbml:caption>
+						For a seeming 
+						<emph rendition="#b">
+							eternity 
+						</emph>
+						Cap seems to drift in an ocean of darkeness--and, when he finally regains consciousness... 
+					</cbml:caption>
+					<cbml:balloon who="#cap" type="thought">
+							W-What 
+							<emph rendition="#b">
+								happened--? 
+							</emph>
+							I-I can't even remember passing out... 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="6" characters="#cap #anon_man">
+					<cbml:balloon who="#cap" type="thought">
+							I feel as though I've been sitting through 
+							<emph rendition="#b">
+								re-runs 
+							</emph>
+							of 
+							<emph rendition="#b">
+								old 
+							</emph>
+							nightmares... Must get my head together--this town is in 
+							<emph rendition="#b">
+								trouble! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="14" corresp="f014"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #anon_man">
+					<cbml:caption>
+						Captain America rises 
+						<emph rendition="#b">
+							shakily 
+						</emph>
+						to his feet and realizes how sorry he has underrated the situation! The madness seems to have subsided--but, in its wake, is a scene of 
+						<emph rendition="#b">
+							utter 
+						</emph>
+						disaster!! 
+					</cbml:caption>
+					<cbml:balloon who="#cap" type="thought">
+							I-I 
+							<emph rendition="#b">
+								haven't 
+							</emph>
+							seen anything like this since World War II... The city is in a 
+							<emph rendition="#b">
+								complete 
+							</emph>
+							shambles! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_man">
+							<emph rendition="#b">
+								Where 
+							</emph>
+							am I? How did I get here? 
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="15" corresp="f015"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #anon_woman">
+					<cbml:caption>
+						Suddenly, a huge sign detaches itself with a 
+						<emph rendition="#b">
+							loud 
+						</emph>
+						snap, and-- 
+					</cbml:caption>
+					<cbml:balloon who="#cap" type="thought">
+							That old woman-- 
+							<emph rendition="#b">
+								trapped 
+							</emph>
+							beneath! The falling sign! It'll 
+							<emph rendition="#b">
+								crush 
+							</emph>
+							her! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_woman">
+							Help! Help me! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#cap #falc">
+					<cbml:caption>
+						Cap streaks to her aid, but 
+						<emph rendition="#b">
+							another 
+						</emph>
+						joins the rescue effort... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								Falcon! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							I'll do the job, Cap! You're still a little 
+							<emph rendition="#b">
+								shakey 
+							</emph>
+							on your pins! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#falc #anon_woman">
+					<sound>
+						POW! 
+					</sound>
+					<cbml:balloon type="speech" who="#anon_woman">
+							<emph rendition="#b">
+								Oh! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								Don't 
+							</emph>
+							worry, lady! It 
+							<emph rendition="#b">
+								never 
+							</emph>
+							touched us! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#cap #falc anon_woman">
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								Good work, 
+							</emph>
+							pal! You really seem to know when you're 
+							<emph rendition="#b">
+								needed! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_woman">
+							Thank you, young man... Thank you... 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							One good deed 
+							<emph rendition="#b">
+								won't 
+							</emph>
+							make up for what's happened tonight... Our work is still 
+							<emph rendition="#b">
+								ahead 
+							</emph>
+							of us... 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#cap #falc anon_woman">
+					<cbml:balloon type="speech" who="#cap">
+							How's 
+							<emph rendition="#b">
+								Leila? 
+							</emph>
+							Has she calmed 
+							<emph rendition="#b">
+								down? 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							It seems like 
+							<emph rendition="#b">
+								everyone 
+							</emph>
+							has... But that 
+							<emph rendition="#b">
+								won't 
+							</emph>
+							shed any light on what happened... We've got a 
+							<emph rendition="#b">
+								mystery 
+							</emph>
+							on our hands! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="6" characters="#cap #falc">
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								What 
+							</emph>
+							caused all of this? Was some kind of 
+							<emph rendition="#b">
+								unnatural 
+							</emph>
+							phenomenon responsible for this madness... 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								Wait! 
+							</emph>
+							I think I've got-- 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="7" characters="#anon_man">
+					<cbml:balloon type="speech" who="#anon_man">
+							<emph rendition="#b">
+								I've 
+							</emph>
+							got the answer right 
+							<emph rendition="#b">
+								here, 
+							</emph>
+							super hero--At least it's one 
+							<emph rendition="#b">
+								piece 
+							</emph>
+							of the answer--! 
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="16" corresp="f016"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #falc anon_man">
+					<cbml:balloon type="speech" who="#anon_man">
+							I arrived here 
+							<emph rendition="#b">
+								too late 
+							</emph>
+							to help... But I can clear up 
+							<emph rendition="#b">
+								part 
+							</emph>
+							of your mystery! 
+							<emph rendition="#b">
+								This 
+							</emph>
+							is it--a fragment of the "madbomb" you crushed. 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							I-I 
+							<emph rendition="#b">
+								remember 
+							</emph>
+							seeing a strange object before I passed out-- 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#falc #cap">
+					<cbml:balloon type="speech" who="#falc">
+							He called it a 
+							<emph rendition="#b">
+								"madbomb" 
+							</emph>
+							that makes sense--considering what happened! 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							A weapon that induces 
+							<emph rendition="#b">
+								mass chaos! 
+							</emph>
+							Incredible! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#cap #anon_man">
+					<cbml:balloon type="speech" who="#cap">
+							It has a simulated human brain which apparently transmits some kind of 
+							<emph rendition="#b">
+								diabolical 
+							</emph>
+							wave--right, 
+							<emph rendition="#b">
+								mister SHIELD agent? 
+							</emph>
+							That's what you are--am I 
+							<emph rendition="#b">
+								correct? 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_man">
+							I'll give you 
+							<emph rendition="#b">
+								all 
+							</emph>
+							the details on our flight--you've got to leave with me right now! Your country says it's 
+							<emph rendition="#b">
+								urgent! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#cap #anon_man">
+					<cbml:caption>
+						That their country faces grave danger is now self evident. Captain America and the Falcon soon find themselves enroute to an unknown destination... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							You say the government is 
+							<emph rendition="#b">
+								aware 
+							</emph>
+							of these "madbombs"--do they know 
+							<emph rendition="#b">
+								who's 
+							</emph>
+							making them? 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_man">
+							Every available SHIELD agent is on this case, but we're 
+							<emph rendition="#b">
+								still 
+							</emph>
+							batting zero... 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#cap #anon_man">
+					<cbml:balloon type="speech" who="#anon_man">
+							That's why we've 
+							<emph rendition="#b">
+								slammed 
+							</emph>
+							the lid on this thing--the news media will report your incident as a 
+							<emph rendition="#b">
+								riot. 
+							</emph>
+							But, we know that we're faced with a fearful 
+							<emph rendition="#b">
+								conspiracy! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								Conspiracy! 
+							</emph>
+							--in this year of the bi-centennial what an 
+							<emph rendition="#b">
+								ironic 
+							</emph>
+							twist of fate... 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="6" characters="#cap #falc anon_man">
+					<cbml:caption>
+						Hours later-- 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							Looks like we've reached a sort of installation... Are we landing 
+							<emph rendition="#b">
+								here? 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_man">
+							That's it!-- 
+							<emph rendition="#b">
+								"Madbom Control"... 
+							</emph>
+							We're going in... 
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="17" corresp="f017"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #falc anon_man">
+					<cbml:caption>
+						The landing is made and the passengers embark... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#anon_man">
+							You know the rules! Flash your 
+							<emph rendition="#b">
+								"I.D.!" 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_man">
+							<emph rendition="#b">
+								Relax 
+							</emph>
+							the triggers, men. I've brough two 
+							<emph rendition="#b">
+								V.I.P.'s! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							Man, these jocks sure are 
+							<emph rendition="#b">
+								nervous! 
+							</emph>
+							I'm not even gonna 
+							<emph rendition="#b">
+								sneeze! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#anon_man">
+							Spare the humor-- 
+							<emph rendition="#b">
+								pass on! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#anon_man #falc #cap">
+					<cbml:balloon type="speech" who="#anon_man">
+							This is where we 
+							<emph rendition="#b">
+								part 
+							</emph>
+							company--when that door opens--walk in and 
+							<emph rendition="#b">
+								keep going. 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							<emph rendition="#b">
+								Hey! 
+							</emph>
+							What's goin' on in there? 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							Let's just follow instructions, Falcon 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#cap #falc">
+					<cbml:caption>
+						The door silently opens, revealing a stark, dimly lit interior--Cap and the Falcon enter cautiously... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#cap">
+							Let's 
+							<emph rendition="#b">
+								go, 
+							</emph>
+							Falcon. No need to drag your feet... 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							I 
+							<emph rendition="#b">
+								can't 
+							</emph>
+							explain it--but I'm getting 
+							<emph rendition="#b">
+								bad 
+							</emph>
+							vibes in here... 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#falc #cap">
+					<cbml:caption>
+						The Falcon shoots a worried glance behind him as the door slides shut...
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#falc">
+							Didn't you notice the door? It was about four feet 
+							<emph rendition="#b">
+								thick! 
+							</emph>
+							Whoever invited us in 
+							<emph rendition="#b">
+								doesn't 
+							</emph>
+							intend to let us out!
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							That's sheer nonsense! You're beginning to 
+							<emph rendition="#b">
+								dramatize 
+							</emph>
+							the security routing!
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#falc #cap">
+					<cbml:balloon type="speech" who="#falc">
+							Oh, yeah?--you 
+							<emph rendition="#b">
+								smell 
+							</emph>
+							anything? 
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								G-Gas! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+			</div>
+		</div>
+		<div type="page">
+<!--  pages="1" -->
+			<pb n="18" corresp="f018"/>
+			<div type="panel_group">
+<!-- panels="" -->
+				<cbml:panel n="1" characters="#cap #falc">
+					<cbml:balloon type="speech" who="#cap">
+							<hi rendition="#i">
+								Cough! Cough! 
+							</hi>
+							There's 
+							<emph rendition="#b">
+								no 
+							</emph>
+							way back! Try to find some sort of 
+							<emph rendition="#b">
+								opening 
+							</emph>
+							ahead! Go! 
+							<hi rendition="#i">
+								(cough) 
+							</hi>
+							<emph rendition="#b">
+								Go! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#falc">
+							Man, I'm 
+							<emph rendition="#b">
+								goin'! 
+							</emph>
+							<hi rendition="#i">
+								(cough! cough!) 
+							</hi>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="2" characters="#falc #cap">
+					<cbml:balloon type="speech" who="#falc">
+							The gas is fading out in this area, but 
+							<emph rendition="#b">
+								look 
+							</emph>
+							what's coming our way! 
+							<emph rendition="#b">
+								Flying rammers! 
+							</emph>
+							--with the speed of 
+							<emph rendition="#b">
+								missles! 
+							</emph>
+						</cbml:balloon>
+					<cbml:balloon type="speech" who="#cap">
+							<emph rendition="#b">
+								Can't 
+							</emph>
+							see! My eyes are 
+							<emph rendition="#b">
+								smarting! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="3" characters="#falc">
+					<cbml:caption>
+						With amazing agility, the Falcon darts 
+						<emph rendition="#b">
+							between 
+						</emph>
+						the hurtling rammers... 
+					</cbml:caption>
+					<cbml:balloon type="speech" who="#falc">
+							Clear your vision, Cap! Here they come! 
+						</cbml:balloon>
+				</cbml:panel>
+				<cbml:panel n="4" characters="#cap">
+					<cbml:caption>
+						Only Cap's swift reflexes save him when the rammers strike... 
+					</cbml:caption>
+					<sound>
+						BAAAMMM! 
+					</sound>
+				</cbml:panel>
+				<cbml:panel n="5" characters="#cap">
+					<cbml:balloon type="speech" who="#cap">
+							Got 'em all — except 
+							<emph rendition="#b">
+								this one! 
+							</emph>
+						</cbml:balloon>
+				</cbml:panel>
+<!-- No coordinates given for this panel -->
+				<cbml:panel n="6" characters="#cap">
+					<cbml:caption>
+						Cap reacts with lightning speed — his shield flashes and cuts through the rammer — 
+						<emph rendition="#b">
+							just inches away from his face... 
+						</emph>
+					</cbml:caption>
+					<sound>
+						SSKK!
+					</sound>
+				</cbml:panel>
+			</div>
+		</div>
+<!-- type recommended values: letters, story?, ads?, mixed, mixed (story letters), mixed (story ads), news?, column?, editorial? What's "Marvel Bullpen Bulletins"? -->
+	 <div type="letter_page">
+<!--  type="letters" pages="1" -->
+   <pb n="[19]" corresp="f021"/>
+		<head> Let's Rap with Cap </head>	
+		<div type="text_box"> 
+		  <p> Send your letters to: The Marvel Comics Group Sixth Floor
+			 575 Madison Av. New York 10022 N.Y. </p>	
+		</div>	
+		<div type="letter"> 
+		  <opener> 
+			 <salute> Dear Marvel, </salute> 
+		  </opener>	
+		   <div type="letter_body">
+			 <p> To start it off, you have a great cover by Gil Kane and
+				Dan Adkins, one of the best he's done this year. Then, I opened it up, eagerly
+				awaiting Kirby. What? No Kirby?! Well, maybe it won't be too bad. Ya know what?
+				It wasn't. </p> 
+			 <p> 
+				<title>CAPTAIN AMERICA</title>#190 was one of the best of my bunch
+				of 18 that I'd bought at my neighborhood book store. 18 comics! And Cap really
+				amazed me! </p>	
+			 <p> Concerning the art: Frank Robbins and Vince Colletta
+				should get a pat on the back for this issue. Since Vinnie has left
+				<title>THE DEFENDERS,</title>he can devote more time to a single
+				mag, thus shooting his ink job up 90%!</p>
+			 <p> The only thing that bugs me concerning the script is
+				Nightshade referring to the werewolves as her "pretties," and this has
+				<emph rendition="#i"> always </emph> bothered me ... in both comics and
+				the movies, with the traditional scraggly witch chanting over her pot of
+				boiling bat-wings. Otherwise, nice job, Tony.</p>
+		  </div>
+		  <closer>	
+			 <signed> <name> Larry Dean </name>	</signed>	
+			 <address> 
+				<addrLine> 6362 Laurentian Ct., </addrLine> 
+				<addrLine> Flint, MI 48504 </addrLine>	
+			 </address>
+		  </closer>
+		</div>
+		  <div type="reply" rendition="#b">
+				<p> Sorry, Larry bu the cover of
+				  <title>CAPTAIN AMERICA</title>#190 was inked by none other than
+				  Joltin' Joe Sinnott himself!</p>
+				<p> As for Nightshade's calling the werewolves "pretties"
+				  — we sorts suspect that's just her way of letting us know she's not the
+				  "girl next door" type.</p>
+		</div>
+		<div type="letter">	
+		  <opener> 
+			 <salute> Dear Marv, </salute>	
+		  </opener>
+		  <div type="letter_body">	
+			 <p> Tony Isabella turned in an excellent plot and script for
+				<title>CA &amp; F</title>#190. Two books in one month that I'd call
+				first-rate jobs. He's finally becoming the good wrier he was supposed to be (ah
+				the Ed Kranepool of the Bullpen!), and I look forward to his handling of
+				<title>THE CHAMPIONS</title>.</p>
+			 <p> Cap and the Falc haven't fought so much together in a
+				while, helping each other out and working in tandem with specific maneuvers
+				(Sam's instinctive knowledge of "maneuver 68" shows a lot of previous
+				practice). And, this togetherness is more needed now than ever before, now that
+				Sam must be constantly reminded that he IS a hero, working with CA. Teams,
+				whether they be just duos or full rosters, are always more interesting when the
+				members work hand in hand.</p>
+			 <p> It was also very nice seeing Val backin action. She
+				provided not a small bit of interest in the past, but was suddenly dropped from
+				the strip. Hopefully, this will mark her return as a regular supporting SHIELD
+				member. Too, Eric and Cochren added more depth; it was enjoyable seeing a
+				SHIELD operation without Nick, Dum-Dum, and Gabe leading the fight.</p>
+			 <p> Frank Robbins turned out another spectacular job. It's
+				odd, how two completely different artists like Al Weiss and he both seem
+				perfectly suited to illustrate Nightshade. She's a real fox, but also, a
+				spoiled little kid (1957?). Al emphasized her foxy side, and Frank, the bratty
+				side; each interpretation worked very well. Her pouting at the end of the
+				issue, sighing "Oh Poo" was beautiful.</p>
+			 <p> Frank's overall composition was also really nice, and I
+				particularly enjoyed how he fit so many people into each of the fight panels
+				— it really gave the impression of intensity.</p>
+			 <p> However, I found my first example of a jarring cut in his
+				usually flawless continuity. The last panel of page 18 sported Cap and the Falc
+				apprehensively looking to the left of the panel, yet, the first panel of page
+				22 had the attackers appearing from the right, and not the left. However, it
+				was a minor fluke in an otherwise beautiful ish.</p>
+		  </div>
+		  <closer>	
+			 <signed> <name> Dean Mullaney </name>	</signed>	
+			 <address> 
+				<addrLine> 81 Delaware Street </addrLine> 
+				<addrLine> Staten Is., NY 10304 </addrLine>	
+			 </address>
+		  </closer>
+		</div>
+		<div type="letter">	
+		  <opener> 
+			 <salute> Dear Tony, Frank, and Vince; </salute>	
+		  </opener>
+		  <div type="letter_body">	
+			 <p> I planned to write and say how much better Frank's
+				pencils look with Vinnie's inks but this month's bullpen announcement renders
+				that obsolete. </p>	
+			 <p> I may be burned in effigy for saying this, but I regret
+				to see Kirby take over drawing <emph rendition="#i"> and </emph>
+				scripting of Cap. For three years under Englehart and Buscema CA&amp;F featured
+				some of the greatest plots in comicdom: the other Cap, Cap's new strength, the
+				Yellow Claw, the smear campaign culminating. in the White House, Cap's
+				resignation, the Nomad, and the Red Skull's return. The emphasis I've put on
+				plot is not meant to slight Sal's equally fine action-packed art. </p>	
+			 <p> But Kirby is <emph rendition="#i"> all </emph>
+				art. What little plot exists serves only as an excuse to get to the action
+				scenes. I'll stop here before all the King's loyal subjects take umbrage and
+				plot against my continued wealth and well-being. Perhaps my fears will prove to
+				be unfounded after a few issues. Thanks for listening. </p>	
+		  </div>	
+		  <closer> 
+			 <signed> UFO, KOR <name> Steve Rogers </name> </signed> 
+			 <address> 
+				<addrLine> 5427 43rd </addrLine> 
+				<addrLine> Lubbock, TX 79414 </addrLine> 
+			 </address>	
+		  </closer>
+		</div>
+		<div type="letter">	
+		  <opener> 
+			 <salute> Dear Jack Kirby, </salute>	
+		  </opener>
+		  <div type="letter_body">	
+			 <p> I was glad to read of your return to Marvel and when I
+				read you would be writing and drawing Cap I sent in for a subscription. I would
+				like to see Captain America much as he was in
+				<title>TALES OF SUSPENSE</title>and his early issues, minus the
+				Falcon, Bucky, Rick Jones, etc., and working with S.H.I.E.L.D.</p>
+			 <p> Is Sharon Carter still around? I haven't seen many of
+				Cap's recent issues; if so, let's not have the on again-off again romance, or
+				Cap mourning Bucky every issue. Theses were two small faults (in my opinion) of
+				the classic issues of yesteryear. Anyway, glad you're back 'n looking forward
+				to reading Cap.</p>
+		  </div>
+		  <closer>	
+			 <signed> <name> Mike Underwood </name>	</signed>	
+			 <address> 
+				<addrLine> 6241 18th Ave. N </addrLine> 
+				<addrLine> St. Petersburg, FL 33710 </addrLine>	
+			 </address>
+		  </closer>
+		</div>
+		  <div type="reply">
+				<p rendition="#b"> Well, Mike, now that you've read Jack
+				  (King) Kirby's first Cap story in so long, how'd ya like it? (We kinda enjoyed
+				  the issue!) Jack's pians will become evident as months go by, but meanwhile,
+				  Marvelous Marv Wolfman assures us that Jack is thinking not of the
+				  <emph rendition="#i"> past </emph> but of the <emph rendition="#i">
+				  future </emph> . Be here! </p>	
+		  </div>
+	 </div>
+	 <div type="page"><!--
+		"  type="story" pages="1"> -->
+		<pb n="22" corresp="f022"/>
+		<div type="panel_group">
+<!-- panels="" -->
+			<cbml:panel n="1" characters="#cap #falc">
+				<cbml:balloon type="speech" who="#cap">
+						I don't 
+						<emph rendition="#b">
+							understand 
+						</emph>
+						this! Can our own government be doing this to us? Why? 
+						<emph rendition="#b">
+							Why? 
+						</emph>
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#falc">
+						Maybe, we've been suckered by the 
+						<emph rendition="#b">
+							wrong 
+						</emph>
+						crowd! — 
+						<emph rendition="#b">
+							that's 
+						</emph>
+						why! 
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#cap">
+						We've reached a 
+						<emph rendition="#b">
+							dead end! 
+						</emph>
+						We're 
+						<emph rendition="#b">
+							trapped! 
+						</emph>
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="2" characters="#cap #falc">
+				<cbml:caption>
+					Suddenly — ! 
+				</cbml:caption>
+				<cbml:balloon type="speech" who="#cap">
+						<emph rendition="#b">
+							Look out! 
+						</emph>
+						The walls are closing in on us! 
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#falc">
+						We're 
+						<emph rendition="#b">
+							not 
+						</emph>
+						going to make it, man! 
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="3" characters="#cap #falc">
+				<cbml:balloon type="speech" who="#falc">
+						It's bone-crushin' time! And it's 
+						<emph rendition="#b">
+							our 
+						</emph>
+						bones that're gonna be 
+						<emph rendition="#b">
+							crushed! 
+						</emph>
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#cap">
+						Look around! Look for 
+						<emph rendition="#b">
+							some gimmick! 
+						</emph>
+				</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="4" characters="#cap">
+				<cbml:balloon type="speech" who="#cap">
+						<emph rendition="#b">
+							There!-- Below!! 
+						</emph>
+						It's so 
+						<emph rendition="#b">
+							tiny 
+						</emph>
+						I almost overlooked it... 
+						<emph rendition="#b">
+							Hang on Falcon! 
+						</emph>
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="5" characters="#cap">
+				<cbml:caption>
+					Cap's foot 
+					<emph rendition="#b">
+						presses 
+					</emph>
+					down upon what appears to be like a small 
+					<emph rendition="#b">
+						button... 
+					</emph>
+					Then--! 
+				</cbml:caption>
+			</cbml:panel>
+			<cbml:panel n="6" characters="#cap #falc">
+				<cbml:caption>
+					--The floor 
+					<emph rendition="#b">
+						opens 
+					</emph>
+					beneath the two... They plunge into the 
+					<emph rendition="#b">
+						darkness 
+					</emph>
+					below...
+				</cbml:caption>
+				<cbml:balloon type="speech" who="#cap">
+						Here goes 
+						<emph rendition="#b">
+							anything! Good luck! 
+						</emph>
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="7" characters="#cap #falc">
+				<cbml:caption>
+					It's a short drop into another corridor. Like superb athletes, Cap and the Falcon land on their feet--ready for action--
+				</cbml:caption>
+				<cbml:balloon type="speech" who="#falc">
+						There's a 
+						<emph rendition="#b">
+							light 
+						</emph>
+						ahead! Let's move!
+					</cbml:balloon>
+			</cbml:panel>
+		</div>
+	</div>
+	<div type="page">
+<!--  pages="1" -->
+		<pb n="23" corresp="f023"/>
+		<div type="panel_group">
+<!-- panels="" -->
+			<cbml:panel n="1" characters="#cap #falc anon_man kissinger">
+				<cbml:caption>
+					The two wast 
+					<emph>
+						little
+					</emph>
+					time — They leap toward the light — and, into the most 
+					<emph>
+						surprising
+					</emph>
+					of situations...
+				</cbml:caption>
+				<cbml:balloon type="speech" who="#anon_man">
+						They're coming through, Mister Secretary! They cleared the 
+						<emph>
+							"panic course"
+						</emph>
+						in record time! — An 
+						<emph>
+							amazing
+						</emph>
+						feat of coolness, timing and dexterity! 
+<!-- note: hyphens note preservered.  For metadata front section -->
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#falc">
+						Looks like we've found the 
+						<emph>
+							"big wig"
+						</emph>
+						room... But it 
+						<emph>
+							still
+						</emph>
+						ain't out of the woods!
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#cap">
+						If that's who I 
+						<emph>
+							think
+						</emph>
+						it is, we should get some 
+						<emph>
+							straight
+						</emph>
+						answers!
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#kissinger">
+						Hah! You dreamer, you! The test isn't 
+						<emph>
+							over
+						</emph>
+						yet! We'll have our chat — If you survive this final hurdle!
+					</cbml:balloon>
+			</cbml:panel>
+		</div>
+	</div>
+<!--
+	 <div  type="ad page" unit="page" extent="1">	<pb  n="[24]"/>
+	 </div>
+	 <div  type="ad page" unit="page" extent="1">	<pb  n="[25]"/>
+	 </div>
+	 -->
+	<div type="page">
+<!--  pages="1" -->
+		<pb n="26"/>
+		<div type="panel_group">
+<!-- panels="" -->
+			<cbml:panel n="1" characters="#cap #falc kissinger anon_man">
+				<cbml:balloon type="speech" who="#cap">
+						I'm 
+						<emph>
+							angry
+						</emph>
+						enough to tackle a 
+						<emph>
+							hundred
+						</emph>
+						hurdles! Back off, Falcon! I'll handle this!
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#falc">
+						They're all yours!
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#anon_man">
+						<emph>
+							Take him, men!
+						</emph>
+						Give him the full treatment!!
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#kissinger">
+						Dot's 
+						<emph>
+							right
+						</emph>
+						, boys! If he's a super-hero, let him 
+						<emph>
+							prove
+						</emph>
+						it!
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="2" characters="#cap #anon_man">
+				<cbml:balloon type="speech" who="#cap">
+						A ninety pound 
+						<emph>
+							weakling
+						</emph>
+						could do this if he was ready to 
+						<emph>
+							blow
+						</emph>
+						his top!
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#anon_man">
+						<emph>
+							Look out! Ugh!
+						</emph>
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="3" characters="#cap #anon_man">
+				<cbml:caption>
+					Cap strikes like a raging whirlwind. And, the results are about the 
+					<emph>
+						same...
+					</emph>
+				</cbml:caption>
+				<cbml:balloon type="speech" who="#anon_man">
+						He tripped me!
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="4" characters="#kissinger #cap #anon_man">
+				<cbml:balloon type="speech" who="#kissinger">
+						By Golly — He's tossing the entire furshluginer crew...
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#kissinger">
+						<emph>
+							Stop!
+						</emph>
+						I order you to 
+						<emph>
+							stop!
+						</emph>
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="5" characters="#kissinger #cap #anon_man">
+				<cbml:balloon type="speech" who="#kissinger">
+						<emph>
+							Enough already!
+						</emph>
+						Dere's no need to turn dis test into a massacre... Let him go, boys. Youre 
+						<emph>
+							dismissed!
+						</emph>
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#anon_man">
+						Yes, sir! There's 
+						<emph>
+							no
+						</emph>
+						doubt that this 
+						<emph>
+							is Captain America!
+						</emph>
+					</cbml:balloon>
+			</cbml:panel>
+		</div>
+	</div>
+	<div type="page">
+<!--  pages="1" -->
+		<pb n="27"/>
+		<div type="panel_group">
+<!-- panels="" -->
+			<cbml:panel n="1" characters="#cap #falc kissinger anon_man">
+				<cbml:balloon type="speech" who="#cap">
+						You've given us quite a reception, Mister Secretary — It 
+						<emph>
+							wasn't
+						</emph>
+						exactly in the diplomatic manner...
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#kissinger">
+						This is 
+						<emph>
+							not
+						</emph>
+						a reception! — And it's 
+						<emph>
+							no
+						</emph>
+						time for diplomacy! Ve're dealing vit a 
+						<emph>
+							national emergency.
+						</emph>
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="2" characters="#kissinger #cap">
+				<cbml:balloon type="speech" who="#cap">
+						I-I'm 
+						<emph>
+							sorry
+						</emph>
+						, sir. I forgot abut the conspiracy... I suppose it's a 
+						<emph>
+							poor
+						</emph>
+						time to trust anyone...
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#kissinger">
+						Dat's all right. I like you two. I apologize — You may call me 
+						<emph>
+							"Henny"
+						</emph>
+						if you like...
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="3" characters="#kissinger #cap">
+				<cbml:balloon type="speech" who="#kissinger">
+						But right now, gentlemen, you must listen — Time grows short. Vile our agents search for the enemy — Your problem is to find the 
+						<emph>
+							next "Madbomb!"
+						</emph>
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#cap">
+						May I ask 
+						<emph>
+							why
+						</emph>
+						you chose 
+						<emph>
+							us
+						</emph>
+						for this job, sir?
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="4" characters="#cap #falc kissinger">
+				<cbml:balloon type="speech" who="#cap">
+						Perhaps, it's because of today's incident. Does 
+						<emph>
+							that qualify
+						</emph>
+						us for--?
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#kissinger">
+						No, 
+						<emph>
+							no
+						</emph>
+						! Der reason is special! I 
+						<emph>
+							cannot
+						</emph>
+						disclose it at this time.
+					</cbml:balloon>
+				<cbml:balloon type="speech" who="#falc">
+						Then, can you 
+						<emph>
+							fill
+						</emph>
+						us in a bit? We know so 
+						<emph>
+							little
+						</emph>
+						about this thing.
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="5" characters="#kissinger">
+				<cbml:balloon type="speech" who="#kissinger">
+						Of course! Of course! this closed circuit monitor will give you the required facts — 
+						<emph>
+							one — two — three!
+						</emph>
+					</cbml:balloon>
+			</cbml:panel>
+			<cbml:panel n="6" characters="#kissinger">
+				<cbml:balloon type="speech" who="#kissinger">
+						The first "madbomb" ve discovered vas 
+						<emph>
+							"peanut!"
+						</emph>
+						and dis is vot it did to Miner's Junction — a small town — destroyed its 
+						<emph>
+							maddened
+						</emph>
+						people...
+					</cbml:balloon>
+			</cbml:panel>
+		</div>
+	</div>
+	</body>
+		<!--
+<linkGrp xmlns:xlink="http://www.w3.org/1999/xlink" type="facsimile">
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="front cover verso" xml:id="f001" xlink:href="cbml_facsimile.xml#f001"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="front cover recto" xml:id="f002" xlink:href="cbml_facsimile.xml#f002"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 1" xml:id="f003" xlink:href="cbml_facsimile.xml#f003"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 2" xml:id="f004" xlink:href="cbml_facsimile.xml#f004"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 3" xml:id="f005" xlink:href="cbml_facsimile.xml#f005"/>
+  <xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 4" xml:id="f006" xlink:href="cbml_facsimile.xml#f006"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 5" xml:id="f007" xlink:href="cbml_facsimile.xml#f007"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 6" xml:id="f008" xlink:href="cbml_facsimile.xml#f008"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 7" xml:id="f009" xlink:href="cbml_facsimile.xml#f009"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 8" xml:id="f010" xlink:href="cbml_facsimile.xml#f010"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 9" xml:id="f011" xlink:href="cbml_facsimile.xml#f011"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 10" xml:id="f012" xlink:href="cbml_facsimile.xml#f012"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 11" xml:id="f013" xlink:href="cbml_facsimile.xml#f013"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 12" xml:id="f014" xlink:href="cbml_facsimile.xml#f014"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 13" xml:id="f015" xlink:href="cbml_facsimile.xml#f015"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 14" xml:id="f016" xlink:href="cbml_facsimile.xml#f016"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 15" xml:id="f017" xlink:href="cbml_facsimile.xml#f017"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 16" xml:id="f018" xlink:href="cbml_facsimile.xml#f018"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 17" xml:id="f019" xlink:href="cbml_facsimile.xml#f019"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 18" xml:id="f020" xlink:href="cbml_facsimile.xml#f020"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 19" xml:id="f021" xlink:href="cbml_facsimile.xml#f021"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 20" xml:id="f022" xlink:href="cbml_facsimile.xml#f022"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 21" xml:id="f023" xlink:href="cbml_facsimile.xml#f023"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 22" xml:id="f024" xlink:href="cbml_facsimile.xml#f024"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 23" xml:id="f025" xlink:href="cbml_facsimile.xml#f025"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 24" xml:id="f026" xlink:href="cbml_facsimile.xml#f026"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 25" xml:id="f027" xlink:href="cbml_facsimile.xml#f027"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 26" xml:id="f028" xlink:href="cbml_facsimile.xml#f028"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 27" xml:id="f029" xlink:href="cbml_facsimile.xml#f029"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 28" xml:id="f030" xlink:href="cbml_facsimile.xml#f030"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 29" xml:id="f031" xlink:href="cbml_facsimile.xml#f031"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 30" xml:id="f032" xlink:href="cbml_facsimile.xml#f032"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 31" xml:id="f033" xlink:href="cbml_facsimile.xml#f033"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="page 32" xml:id="f034" xlink:href="cbml_facsimile.xml#f034"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="back cover verso" xml:id="f035" xlink:href="cbml_facsimile.xml#f035"/>
+	<xptr xmlns:xlink="http://www.w3.org/1999/xlink" n="back cover recto" xml:id="f036" xlink:href="cbml_facsimile.xml#f036"/>
+</linkGrp>
+		-->
+</text>
+</TEI>

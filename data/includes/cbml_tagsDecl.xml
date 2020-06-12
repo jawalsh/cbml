@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tagsDecl xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- font-size -->
+    <rendition n="small" xml:id="small" scheme="css">font-size: small;</rendition>
+    <rendition n="x-small" xml:id="x-small" scheme="css">font-size: x-small;</rendition>
+    <rendition n="xx-small" xml:id="xx-small" scheme="css">font-size: xx-small;</rendition>
+    <rendition n="large" xml:id="large" scheme="css">font-size: large;</rendition>
+    <rendition n="x-large" xml:id="x-large" scheme="css">font-size: x-large;</rendition>
+    <rendition n="xx-large" xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
+    <!-- font-style -->
+    <rendition n="i" xml:id="i" scheme="css">font-style: italic;</rendition>
+    <rendition n="normal" xml:id="n" scheme="css">font-style: normal;</rendition>
+    <!-- font-variant -->
+    <rendition n="sc" xml:id="sc" scheme="css">font-variant: small-caps;</rendition>
+    <!-- font-weight -->
+    <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+    <!-- text-decoration -->
+    <rendition n="strike through" xml:id="strike" scheme="css">text-decoration:
+        line-through;</rendition>
+    <rendition n="underline" xml:id="u" scheme="css">text-decoration: underline;</rendition>
+    <rendition xml:id="block" scheme="css">margin: 4em;</rendition>
+    <!-- text-align -->
+    <rendition n="center" xml:id="center" scheme="css">text-align: center;</rendition>
+    <rendition n="right" xml:id="right" scheme="css">text-align: right;</rendition>
+    <rendition n="right" xml:id="left" scheme="css">text-align: right;</rendition>
+    <!-- text-transform -->
+    <rendition n="uppdercase" xml:id="uc" scheme="css">text-transform: uppercase;</rendition>
+</tagsDecl>
