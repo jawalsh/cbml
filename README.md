@@ -13,3 +13,4 @@ By using TEI as a foundation for CBML, the standard TEI tags may be used to enco
 
 A lengthy article, [“Comic Book Markup Language: An Introduction and Rationale”](http://www.digitalhumanities.org/dhq/vol/6/1/000117/000117.html) (Walsh, 2012), published in _[Digital Humanities Quarterly](http://digitalhumanities.org/dhq/)_, provides an introduction to CBML, discusses the rationale and motivations behind the development of CBML, and suggests areas for future work. The article also includes many full-color illustrations and examples.
 
+See also: <http://cbml.org/>.
