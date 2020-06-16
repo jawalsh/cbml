@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="/Users/jawalsh/development/cbml/odd/cbml.rng" type="xml"?>
 <!DOCTYPE TEI [
 <!ENTITY sd "#samson #david">
 <!ENTITY s "#samson">
 <!ENTITY d "#david">
 ]>
-<TEI xml:id="cbml0000002-01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../schema/cbml.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0" xml:id="cbml0000002-01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +28,7 @@
                             <measure type="currency" commodity="USD" quantity="0.10">10¢</measure>
                         </note>
                         <imprint>
-                            <biblScope type="issue">15</biblScope>
+                            <biblScope unit="issue">15</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -302,7 +303,7 @@
                             of each month</p>
                     </div>
                 </div>
-                <cbml:indicia rendition="#x-small #border"> Fantastic Comics, February Issue, No.
+                <cbml:indicia rendition="#x-small #border">Fantastic Comics, February Issue, No.
                     15. Published monthly: by Fox Publictions, Inc. Office of publication, 29
                     Worthington Street, Springfield, Mass. 480 Lexington Avenue, New York. N. Y.
                     Entered as second-class matter at the Post Office at Springfield, Mass., under
@@ -313,7 +314,7 @@
                     characters that are used are fictitious. Use of a name which is the same as that
                     of any living person is accidental. For advertising rates, address: Advertising
                     Manager, Fox Publications, Inc., 480 Lexington Ave., New York City. Printed in
-                    the U.S.A. </cbml:indicia>
+                    the U.S.A.</cbml:indicia>
             </div>
         </front>
         <group>

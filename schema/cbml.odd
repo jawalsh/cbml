@@ -46,6 +46,11 @@
                     <item>Changed content model of panel to allow panels within panels</item>
                 </list>
             </change>
+            <change when="2020-06-16">
+                <list>
+                    <item>Updated <term>data.pointer</term> to <term>teidata.pointer</term>.</item>
+                </list>
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -142,7 +147,7 @@
                         <attDef ident="characters" usage="opt">
                             <desc>Pointers to characters appearing in the panel.</desc>
                             <datatype minOccurs="1" maxOccurs="unbounded">
-                                <rng:ref name="data.pointer"/>
+                                <rng:ref name="teidata.pointer"/>
                             </datatype>
                         </attDef>
                     </attList>
@@ -396,7 +401,7 @@
 
 
                 <!-- indicia -->
-                <!--
+                
                 <elementSpec ident="indicia" mode="add" module="cbml" ns="http://www.cbml.org/ns/1.0" prefix="cbml_">
                     <desc>Contains the <soCalled>small print</soCalled> bibliographic and legal
                         information, traditionally found at the bottom of the first recto after the cover of
@@ -411,7 +416,7 @@
                         <rng:ref name="macro.paraContent"/>
                     </content>
                 </elementSpec>
-                -->
+                
 
                 <!-- deleted elements -->
                 <!-- The "numbered divs" are deleted in favor of using numbered divs. -->

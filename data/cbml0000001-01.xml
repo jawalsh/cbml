@@ -8,8 +8,10 @@
 <!-- $Id: cbml.xml,v 1.31 2004/03/10 15:27:38 jawalsh Exp $              -->
 <!-- ==================================================================  -->
 
-<?oxygen RNGSchema="../schema/cbml.rnc" type="compact"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0" xml:id="cbml0000001-01">
+<!-- <?oxygen RNGSchema="../schema/cbml.rnc" type="compact"?> -->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../schema/cbml.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0" xml:id="cbml0000001-01">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -174,13 +176,13 @@
 					<measure type="currency" commodity="USD" quantity="0.25">
 						25¢ 
 					</measure>
-					<biblScope type="issue">
+					<biblScope unit="issue">
 						193 
 					</biblScope>
 					<date>
 						Jan 
 					</date>
-					<biblScope type="unknown">
+					<biblScope unit="unknown">
 						02453 
 					</biblScope>
 					<title>Captain America</title> 
