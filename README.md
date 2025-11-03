@@ -29,7 +29,7 @@ The full [Tag Set Documentation](https://dcl.luddy.indiana.edu/cbml/schema/cbml
 
 The ODD file was updated and schemas regenerated against the 4.3.0 version (2021-08-31, revision b4f72b1ff) of TEI P5 on 2022-05-24.
 
-[cbml.odd](https://dcl.luddy.indiana.edu/cbml/schema/cbml.odd)
+[cbml.odd](schema/cbml.odd)
 
 The ODD file that contains the CBML customizations. The ODD file format is used to configure and document TEI customizations such as CBML.
 
