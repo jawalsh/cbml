@@ -1,3 +1,4 @@
+![Comic Book Markup Language (CBML)](images/cbml_banner.png)
 # What is CBML?
 
 Comic Book Markup Language, or CBML, is an XML vocabulary for encoding multiform documents that are variously called comics, comic books, and “graphic novels” as well as other documents that integrate comics content or that share formal features with comics content.
