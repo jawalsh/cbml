@@ -33,10 +33,10 @@ The ODD file was updated and schemas regenerated against the 4.3.0 version (2021
 
 The ODD file that contains the CBML customizations. The ODD file format is used to configure and document TEI customizations such as CBML.
 
-[cbml.rng](https://dcl.luddy.indiana.edu/cbml/schema/cbml.rng)
+[cbml.rng](schema/cbml.rng)
 
 A Relax NG (XML syntax) schema for CBML, derived from the CBML ODD file.
 
-[cbml.rnc](https://dcl.luddy.indiana.edu/cbml/schema/cbml.rnc)
+[cbml.rnc](schema/cbml.rnc)
 
 A Relax NG (compact syntax) schema for CBML, derived from the CBML ODD file.
